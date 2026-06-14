@@ -21,21 +21,5 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
-        <item>
-            <title>Version 1.0.0-beta.18</title>
-            <pubDate>Sun, 14 Jun 2026 23:25:15 +0000</pubDate>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.0-beta.18/Observio-1.0.0-beta.18-arm64.dmg" sparkle:version="475" sparkle:shortVersionString="1.0.0-beta.18" length="87619929" type="application/octet-stream" sparkle:edSignature="uquiJZto1fPkK9qkk7OwWiFJwjvHzI565BqBw0UFrc7yA4RQyP5Di9rttEuKWFgUusFV8elXxAvZAgk77PIEBA==">
-                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
-            </enclosure>
-        </item>
-        <item>
-            <title>Version 1.0.0-beta.18</title>
-            <pubDate>Sun, 14 Jun 2026 23:25:15 +0000</pubDate>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.0-beta.18/Observio-1.0.0-beta.18-x86_64.dmg" sparkle:version="475" sparkle:shortVersionString="1.0.0-beta.18" length="89388819" type="application/octet-stream" sparkle:edSignature="erfikguSjSe0uFPLtbFc8GN7BMvJnnw3YckNWCLLUjM+FjUv/dT1wyxQFl/jxG3rvGPRIvWtl+ZYzFnDABY+Bw==">
-                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
-            </enclosure>
-        </item>
     </channel>
 </rss>
