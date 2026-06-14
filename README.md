@@ -1,12 +1,20 @@
-# Observio Releases
+# Observio
 
-Public host for **Observio** macOS app releases and the Sparkle auto-update appcast.
+A modern IPTV player for macOS — live TV, video on demand, EPG, and catch-up in a clean, native interface.
 
-- **Source code** lives in a separate private repository.
-- This repo holds only the Sparkle feeds (`appcast.xml`, `appcast-stable.xml`) and the
-  signed `.dmg` release assets attached to each GitHub Release.
-- Every build is **EdDSA-signed**; Sparkle verifies the signature against the public key
-  baked into the app, so public hosting is tamper-proof.
+## Download
 
-The app's update feed is served from `https://observio.hexadexa.io/appcast.xml`
-(a Cloudflare redirect to the raw appcast in this repo). No authentication is required.
+Get the latest build from the [**Releases**](../../releases/latest) page:
+
+- **Apple Silicon** (M1 or newer) — `Observio-<version>-arm64.dmg`
+- **Intel** — `Observio-<version>-x86_64.dmg`
+
+Open the DMG, drag **Observio** into **Applications**, and launch it. Requires **macOS 14 (Sonoma)** or later.
+
+## Automatic updates
+
+Observio keeps itself up to date — you'll be prompted in-app when a new version ships, or you can check any time from **Settings → Updates**.
+
+---
+
+More at [observio.hexadexa.io](https://observio.hexadexa.io).
