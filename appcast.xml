@@ -5,5 +5,21 @@
         <link>https://observio.hexadexa.io/appcast.xml</link>
         <description>Updates for Observio</description>
         <language>en</language>
+        <item>
+            <title>Version 1.0.0-beta.17</title>
+            <pubDate>Sun, 14 Jun 2026 22:22:46 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.0-beta.17/Observio-1.0.0-beta.17-arm64.dmg" sparkle:version="473" sparkle:shortVersionString="1.0.0-beta.17" length="87607152" type="application/octet-stream" sparkle:edSignature="l6v9VcHDhjCFYhlsX6b1h4zerCNbhkARmWHiZ2dcUuAojjIQoVGawyteMLX8//X6R7rekam5tM9KbozzmIKhAA==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.0-beta.17</title>
+            <pubDate>Sun, 14 Jun 2026 22:22:46 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.0-beta.17/Observio-1.0.0-beta.17-x86_64.dmg" sparkle:version="473" sparkle:shortVersionString="1.0.0-beta.17" length="89386135" type="application/octet-stream" sparkle:edSignature="0VFoOlPmV2adLlCc/ly5f8WmLg0RiNSBqXSDtSfXYHzpt+xiWMtlSzMGih/Ht5LAQlWGt6Gnzt5eyRrigDgiAw==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
