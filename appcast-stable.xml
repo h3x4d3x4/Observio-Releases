@@ -5,5 +5,93 @@
         <link>https://observio.hexadexa.io/appcast-stable.xml</link>
         <description>Updates for Observio</description>
         <language>en</language>
+        <item>
+            <title>Version 20.1</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A big stability and polish release — the headline fix is the iPhone playback freeze on the Native engine, plus a major overhaul of resume, media‑server reliability, the guide, and loading indicators.</p>
+
+  <h3 style="margin:14px 0 4px;">Playback</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Fixed the periodic video freeze on iPhone</b> — live channels on the Native engine could freeze for ~a second every few minutes while audio kept playing. The engine also now auto‑recovers when a server drops the connection.</li>
+    <li>The Native engine works again over plain‑HTTP on iOS 26, restoring the higher‑quality deinterlacer for sports and interlaced channels.</li>
+    <li>Sheds expensive image processing when the device gets hot, so long sessions stutter less.</li>
+    <li>Assorted player fixes (volume‑slider drag, catch‑up timing, engine selection).</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Watch progress &amp; resume</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Resume actually works now</b> across movies and series, on IPTV and Emby/Plex/Jellyfin — progress is saved reliably during playback.</li>
+    <li>Continue Watching is sorted by most‑recent; “Start from Beginning” starts immediately.</li>
+    <li>Fixed progress routing with multiple media servers; Plex now reports mid‑playback.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Media servers &amp; artwork</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Fixed Jellyfin opening the Emby view, and out‑of‑order Emby/Jellyfin refreshes dropping content.</li>
+    <li>More accurate posters via release‑year matching; a loading shimmer while they fetch and a progress bar during first‑time artwork setup.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Guide &amp; interface</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Much lighter EPG handling — large guides no longer contend with playback, and failing sources back off instead of retrying every launch.</li>
+    <li>Loading indicators throughout (counts, provider lists, libraries, home) instead of blank/empty on launch.</li>
+    <li>Full Dynamic Type pass; proper iPad split‑view browse layout.</li>
+    <li>Credentials in stream URLs are now redacted from logs.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Thu, 09 Jul 2026 23:49:23 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.1/Observio-20.1-arm64.dmg" sparkle:version="581" sparkle:shortVersionString="20.1" length="87801990" type="application/octet-stream" sparkle:edSignature="QczeF1ZjhhuzxZfpbJA6ChsEExx3XQx7S1CbAvL5YbMu7zP7OTSUYR/GCRKlj+2lonzfVmOQvpfQCNHMERXJAg==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 20.1</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A big stability and polish release — the headline fix is the iPhone playback freeze on the Native engine, plus a major overhaul of resume, media‑server reliability, the guide, and loading indicators.</p>
+
+  <h3 style="margin:14px 0 4px;">Playback</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Fixed the periodic video freeze on iPhone</b> — live channels on the Native engine could freeze for ~a second every few minutes while audio kept playing. The engine also now auto‑recovers when a server drops the connection.</li>
+    <li>The Native engine works again over plain‑HTTP on iOS 26, restoring the higher‑quality deinterlacer for sports and interlaced channels.</li>
+    <li>Sheds expensive image processing when the device gets hot, so long sessions stutter less.</li>
+    <li>Assorted player fixes (volume‑slider drag, catch‑up timing, engine selection).</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Watch progress &amp; resume</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Resume actually works now</b> across movies and series, on IPTV and Emby/Plex/Jellyfin — progress is saved reliably during playback.</li>
+    <li>Continue Watching is sorted by most‑recent; “Start from Beginning” starts immediately.</li>
+    <li>Fixed progress routing with multiple media servers; Plex now reports mid‑playback.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Media servers &amp; artwork</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Fixed Jellyfin opening the Emby view, and out‑of‑order Emby/Jellyfin refreshes dropping content.</li>
+    <li>More accurate posters via release‑year matching; a loading shimmer while they fetch and a progress bar during first‑time artwork setup.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Guide &amp; interface</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Much lighter EPG handling — large guides no longer contend with playback, and failing sources back off instead of retrying every launch.</li>
+    <li>Loading indicators throughout (counts, provider lists, libraries, home) instead of blank/empty on launch.</li>
+    <li>Full Dynamic Type pass; proper iPad split‑view browse layout.</li>
+    <li>Credentials in stream URLs are now redacted from logs.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Thu, 09 Jul 2026 23:49:23 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.1/Observio-20.1-x86_64.dmg" sparkle:version="581" sparkle:shortVersionString="20.1" length="89590692" type="application/octet-stream" sparkle:edSignature="pTgkNtcBgjeTW86/6hz3+0vAPXzG9gjUzmAqbJ2c+9o22ru2fqdXMnZ2L86dYSe1+eF+m6FkZbeqvBqfTSOjBg==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
