@@ -231,5 +231,47 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 20.3</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A quick fix release on top of 20.2.</p>
+
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Per-episode resume for Plex series now works.</b> Every episode of a season was sharing one resume time — play one and they all showed the same position. Each episode now tracks its own progress. (Cause: Plex episode URLs were misread as another provider's format and collapsed to a single key.)</li>
+    <li>Correct version shown in About/Settings on development builds.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Sat, 11 Jul 2026 17:20:57 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.3/Observio-20.3-arm64.dmg" sparkle:version="583" sparkle:shortVersionString="20.3" length="87941666" type="application/octet-stream" sparkle:edSignature="RMw41C+iw7RR3bliZ7SH2rPa4GokhBXvT0ZwuRly5s90xvoOu18hZUMD7DGqgU9KkXwDF83+aDWmE4JXMF1PBg==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 20.3</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A quick fix release on top of 20.2.</p>
+
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Per-episode resume for Plex series now works.</b> Every episode of a season was sharing one resume time — play one and they all showed the same position. Each episode now tracks its own progress. (Cause: Plex episode URLs were misread as another provider's format and collapsed to a single key.)</li>
+    <li>Correct version shown in About/Settings on development builds.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Sat, 11 Jul 2026 17:20:57 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.3/Observio-20.3-x86_64.dmg" sparkle:version="583" sparkle:shortVersionString="20.3" length="89742172" type="application/octet-stream" sparkle:edSignature="U8fPMBt1fya/Jo5HSu04LqGu8gryWrD6fLIOTxHmixCs8RXuIooCAfYLgu2FxSJ2EeapTS6ldUgehMowcyjJDg==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
