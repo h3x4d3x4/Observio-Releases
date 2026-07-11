@@ -351,5 +351,45 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 20.4</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A stability hotfix on top of 20.3.</p>
+
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Fixed a major memory leak on the Native engine.</b> Every channel change leaked its entire video render stack instead of tearing it down — memory climbed without bound over a long session until the app became unresponsive. Each leaked render loop also kept running in the background, contending for the GPU and causing the intermittent picture freeze with the audio briefly looping before it resynced. Channel changes now release the previous renderer cleanly.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Sat, 11 Jul 2026 22:28:13 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.4/Observio-20.4-arm64.dmg" sparkle:version="584" sparkle:shortVersionString="20.4" length="87947397" type="application/octet-stream" sparkle:edSignature="QHz+biEBKK2G0jgUZCwQZpaBp80WGtGR8sJFypEWEJJhj/fKF82IyHT8Kji+0VAHflMtgcUilAQSwlmLaM9hDQ==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 20.4</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A stability hotfix on top of 20.3.</p>
+
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Fixed a major memory leak on the Native engine.</b> Every channel change leaked its entire video render stack instead of tearing it down — memory climbed without bound over a long session until the app became unresponsive. Each leaked render loop also kept running in the background, contending for the GPU and causing the intermittent picture freeze with the audio briefly looping before it resynced. Channel changes now release the previous renderer cleanly.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Sat, 11 Jul 2026 22:28:13 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.4/Observio-20.4-x86_64.dmg" sparkle:version="584" sparkle:shortVersionString="20.4" length="89740722" type="application/octet-stream" sparkle:edSignature="c8fvEIyWuz3cfvoEkbix0vsyc1XRcCa/JUAGeso6SsC5CmNO08RYF775WJXsxQZichTXt6lxFvUt5f+OgHOOAQ==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
