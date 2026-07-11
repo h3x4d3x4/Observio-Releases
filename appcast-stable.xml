@@ -255,5 +255,53 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 20.3.1</title>
+            <description><![CDATA[
+<h3>Immersive mode overhaul</h3>
+<ul>
+  <li>Full keyboard &amp; remote navigation across the channel grid and TV guide</li>
+  <li>Browse-before-tune channel surfing, instant two-stage number entry, and first-press reveal</li>
+  <li>New full-width bottom bar with a Recent Channels rail and the channel number</li>
+  <li>Refreshed visual design: one consistent surface language, white focus rings, red LIVE badges, and proper empty states</li>
+</ul>
+<h3>Polish &amp; Settings</h3>
+<ul>
+  <li>Live-channel cards restyled as clean tiles across the main grid, Favorites, and Recently Watched</li>
+  <li>Trakt and TMDB are now centralized under a single <strong>Integrations</strong> settings tab</li>
+  <li>One-click <strong>Sign In with Trakt.tv</strong> — no app registration required</li>
+  <li>Version info now clearly indicates the Beta channel</li>
+</ul>
+            ]]></description>
+            <pubDate>Sat, 11 Jul 2026 19:23:30 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.3.1/Observio-20.3.1-arm64.dmg" sparkle:version="628" sparkle:shortVersionString="20.3.1" length="87967604" type="application/octet-stream" sparkle:edSignature="vKhkjs/CHO16M29GsBp2qY2D0C0u71zZzWjhIxCZPUA3lVmZivPQA6YQaf4ruH9sgIO+BMvfejq6NpFpbKC8DQ==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 20.3.1</title>
+            <description><![CDATA[
+<h3>Immersive mode overhaul</h3>
+<ul>
+  <li>Full keyboard &amp; remote navigation across the channel grid and TV guide</li>
+  <li>Browse-before-tune channel surfing, instant two-stage number entry, and first-press reveal</li>
+  <li>New full-width bottom bar with a Recent Channels rail and the channel number</li>
+  <li>Refreshed visual design: one consistent surface language, white focus rings, red LIVE badges, and proper empty states</li>
+</ul>
+<h3>Polish &amp; Settings</h3>
+<ul>
+  <li>Live-channel cards restyled as clean tiles across the main grid, Favorites, and Recently Watched</li>
+  <li>Trakt and TMDB are now centralized under a single <strong>Integrations</strong> settings tab</li>
+  <li>One-click <strong>Sign In with Trakt.tv</strong> — no app registration required</li>
+  <li>Version info now clearly indicates the Beta channel</li>
+</ul>
+            ]]></description>
+            <pubDate>Sat, 11 Jul 2026 19:23:30 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.3.1/Observio-20.3.1-x86_64.dmg" sparkle:version="628" sparkle:shortVersionString="20.3.1" length="89741183" type="application/octet-stream" sparkle:edSignature="7GpcrNxANYUtfh1XQRgCzMNvNxRXKqeodsHNoMwi2b8nQPMlHLRT+2wELVqbHN5n8SoL1pse+OKYg+aLLncsDw==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
