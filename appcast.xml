@@ -235,12 +235,27 @@
             <title>Version 20.3</title>
             <description><![CDATA[
 <div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
-  <p>A quick fix release on top of 20.2.</p>
+  <p>A big interface release — a redesigned, more immersive TV experience with full keyboard &amp; remote control — plus fixes on top of 20.2.</p>
+
+  <h3 style="margin:14px 0 4px;">Immersive interface</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Redesigned immersive UI</b> on a unified design system — consistent color grammar (white focus, red LIVE), refined typography, coherent spacing.</li>
+    <li><b>Full keyboard &amp; remote navigation</b> of the channel grid and program guide — arrow-key movement, horizontal (time) navigation across the EPG, two-stage channel-number entry.</li>
+    <li><b>Browse while you watch</b> — surf channels and explore the grid without interrupting playback.</li>
+    <li><b>Redesigned OSD</b> — full-width bottom scrim with the channel number, and a cleaner zap banner showing the channel group and time remaining.</li>
+    <li><b>New Recents rail</b> replaces “Up Next For You”.</li>
+    <li>Polished throughout — unified toasts, pills, and empty states; live-channel cards adopt the immersive tile look.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Settings</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Consolidated Integrations tab — Trakt and TMDB in one place; version info now shows your update channel.</li>
+  </ul>
 
   <h3 style="margin:14px 0 4px;">Fixes</h3>
   <ul style="margin:0; padding-left:20px;">
-    <li><b>Per-episode resume for Plex series now works.</b> Every episode of a season was sharing one resume time — play one and they all showed the same position. Each episode now tracks its own progress. (Cause: Plex episode URLs were misread as another provider's format and collapsed to a single key.)</li>
-    <li>Correct version shown in About/Settings on development builds.</li>
+    <li><b>Per-episode resume for Plex series now works</b> — episodes were sharing one resume time; each now tracks its own position.</li>
+    <li>Correct version shown in About / Settings on development builds.</li>
   </ul>
 
   <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
@@ -256,12 +271,27 @@
             <title>Version 20.3</title>
             <description><![CDATA[
 <div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
-  <p>A quick fix release on top of 20.2.</p>
+  <p>A big interface release — a redesigned, more immersive TV experience with full keyboard &amp; remote control — plus fixes on top of 20.2.</p>
+
+  <h3 style="margin:14px 0 4px;">Immersive interface</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Redesigned immersive UI</b> on a unified design system — consistent color grammar (white focus, red LIVE), refined typography, coherent spacing.</li>
+    <li><b>Full keyboard &amp; remote navigation</b> of the channel grid and program guide — arrow-key movement, horizontal (time) navigation across the EPG, two-stage channel-number entry.</li>
+    <li><b>Browse while you watch</b> — surf channels and explore the grid without interrupting playback.</li>
+    <li><b>Redesigned OSD</b> — full-width bottom scrim with the channel number, and a cleaner zap banner showing the channel group and time remaining.</li>
+    <li><b>New Recents rail</b> replaces “Up Next For You”.</li>
+    <li>Polished throughout — unified toasts, pills, and empty states; live-channel cards adopt the immersive tile look.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Settings</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Consolidated Integrations tab — Trakt and TMDB in one place; version info now shows your update channel.</li>
+  </ul>
 
   <h3 style="margin:14px 0 4px;">Fixes</h3>
   <ul style="margin:0; padding-left:20px;">
-    <li><b>Per-episode resume for Plex series now works.</b> Every episode of a season was sharing one resume time — play one and they all showed the same position. Each episode now tracks its own progress. (Cause: Plex episode URLs were misread as another provider's format and collapsed to a single key.)</li>
-    <li>Correct version shown in About/Settings on development builds.</li>
+    <li><b>Per-episode resume for Plex series now works</b> — episodes were sharing one resume time; each now tracks its own position.</li>
+    <li>Correct version shown in About / Settings on development builds.</li>
   </ul>
 
   <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
