@@ -141,5 +141,95 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 20.2</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A feature release — profiles, a big push on discovery and metadata (trailers, trending, ratings), Trakt two‑way sync, and cross‑device resume on iPhone, plus two fixes from 20.1.</p>
+
+  <h3 style="margin:14px 0 4px;">Profiles</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>User profiles</b> — each with its own watchlist, watch progress, and hidden channels/groups, while playlists, settings, and favorites stay shared. Optionally PIN‑lock a profile.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Discovery &amp; metadata</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Trailers now match the title's language</b> — a foreign‑language movie/series plays its own‑language trailer instead of always the English one.</li>
+    <li><b>“Trending This Week”</b> discovery row, resolved into titles you can actually play from your catalog.</li>
+    <li>Featured carousel on the iPhone Home screen; trailer button and TMDB ratings on iPhone detail pages.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Trakt, sync &amp; remote</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Trakt two‑way sync</b> — watchlist changes push to Trakt, and your Trakt watched history imports back to mark items watched.</li>
+    <li><b>Cross‑device resume on iPhone</b> over iCloud, with a newest‑wins merge; clearing an item now clears it everywhere.</li>
+    <li>QR pairing for the iPhone remote — scan the code on the Mac to pair instantly.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Playback &amp; guide</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Load an external subtitle file on macOS directly from the player (parity with iPhone).</li>
+    <li>Experimental audio passthrough (bitstream AC3/DTS/TrueHD to a receiver) and an experimental on‑disk SQLite guide store for very large EPGs — both off by default.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Per‑episode resume for Plex series</b> — episodes were sharing one resume time; each now tracks its own position.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Sat, 11 Jul 2026 00:19:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.2/Observio-20.2-arm64.dmg" sparkle:version="582" sparkle:shortVersionString="20.2" length="87917593" type="application/octet-stream" sparkle:edSignature="gqQRtk3MWeLS4udtt1UXLUPb9vcmFoVLMkIcXVnBmhk2g3MQWpqncJPbolvq/0PlMDhRRK9ZpLoXLojeWpRmBA==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 20.2</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A feature release — profiles, a big push on discovery and metadata (trailers, trending, ratings), Trakt two‑way sync, and cross‑device resume on iPhone, plus two fixes from 20.1.</p>
+
+  <h3 style="margin:14px 0 4px;">Profiles</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>User profiles</b> — each with its own watchlist, watch progress, and hidden channels/groups, while playlists, settings, and favorites stay shared. Optionally PIN‑lock a profile.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Discovery &amp; metadata</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Trailers now match the title's language</b> — a foreign‑language movie/series plays its own‑language trailer instead of always the English one.</li>
+    <li><b>“Trending This Week”</b> discovery row, resolved into titles you can actually play from your catalog.</li>
+    <li>Featured carousel on the iPhone Home screen; trailer button and TMDB ratings on iPhone detail pages.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Trakt, sync &amp; remote</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Trakt two‑way sync</b> — watchlist changes push to Trakt, and your Trakt watched history imports back to mark items watched.</li>
+    <li><b>Cross‑device resume on iPhone</b> over iCloud, with a newest‑wins merge; clearing an item now clears it everywhere.</li>
+    <li>QR pairing for the iPhone remote — scan the code on the Mac to pair instantly.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Playback &amp; guide</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Load an external subtitle file on macOS directly from the player (parity with iPhone).</li>
+    <li>Experimental audio passthrough (bitstream AC3/DTS/TrueHD to a receiver) and an experimental on‑disk SQLite guide store for very large EPGs — both off by default.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Per‑episode resume for Plex series</b> — episodes were sharing one resume time; each now tracks its own position.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Sat, 11 Jul 2026 00:19:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.2/Observio-20.2-x86_64.dmg" sparkle:version="582" sparkle:shortVersionString="20.2" length="89744427" type="application/octet-stream" sparkle:edSignature="LYw1yaMLIlep8Malsb/WiElMFCEFNmWMFSygJvwg52ZoWx4Z34oxYIs5XkyK3uRZ36owq4sKZwMBj5uQjOq2BA==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
