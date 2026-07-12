@@ -385,5 +385,51 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 20.5.1</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Everything from 20.4 and 20.5, now delivered correctly. (A build-numbering mix-up meant those two updates weren't being offered; this release supersedes them.)</p>
+
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Anamorphic SD channels now display at the correct aspect ratio.</b> 720×576 channels carrying widescreen content (common on European IPTV) were shown squished on the Native engine; they now fill the correct 16:9 (or 4:3) shape.</li>
+    <li><b>Cleaner channel changes on the Native engine.</b> Switching channels no longer briefly flashes a garbled or black frame — the picture holds the previous frame until the first clean frame is ready, then cuts straight to it.</li>
+    <li><b>Fixed a major memory leak on the Native engine.</b> Channel changes leaked the whole video render stack, so memory climbed until the app became unresponsive over long sessions (and caused the intermittent freeze with looping audio). Channel changes now release the previous renderer cleanly.</li>
+    <li><b>More reliable audio on low-bitrate channels.</b> HE-AAC channels now play consistently through the compatible engine.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Sun, 12 Jul 2026 00:49:58 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.5.1/Observio-20.5.1-arm64.dmg" sparkle:version="650" sparkle:shortVersionString="20.5.1" length="87936836" type="application/octet-stream" sparkle:edSignature="wmQzrAAqrbaRL0+cTfftFD0dfYDks5P2sHMUijZuAsRyyVhCBdw38zUghFiL5eViYs3PNwQG5i8E0SFZcRZdBQ==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 20.5.1</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Everything from 20.4 and 20.5, now delivered correctly. (A build-numbering mix-up meant those two updates weren't being offered; this release supersedes them.)</p>
+
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Anamorphic SD channels now display at the correct aspect ratio.</b> 720×576 channels carrying widescreen content (common on European IPTV) were shown squished on the Native engine; they now fill the correct 16:9 (or 4:3) shape.</li>
+    <li><b>Cleaner channel changes on the Native engine.</b> Switching channels no longer briefly flashes a garbled or black frame — the picture holds the previous frame until the first clean frame is ready, then cuts straight to it.</li>
+    <li><b>Fixed a major memory leak on the Native engine.</b> Channel changes leaked the whole video render stack, so memory climbed until the app became unresponsive over long sessions (and caused the intermittent freeze with looping audio). Channel changes now release the previous renderer cleanly.</li>
+    <li><b>More reliable audio on low-bitrate channels.</b> HE-AAC channels now play consistently through the compatible engine.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Sun, 12 Jul 2026 00:49:58 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.5.1/Observio-20.5.1-x86_64.dmg" sparkle:version="650" sparkle:shortVersionString="20.5.1" length="89736170" type="application/octet-stream" sparkle:edSignature="c4u/RhFgZe4X7Bay1Os9kQQrGf/LAFsPY0yCVyBGk+E8WYlk//x4EXEBVFUCTuVYTRJOA1fWwnjyaNf6AJF6Bg==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
