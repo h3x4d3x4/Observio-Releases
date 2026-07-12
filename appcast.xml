@@ -391,5 +391,47 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 20.5</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Native-engine picture-quality fixes on top of 20.4.</p>
+
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Anamorphic SD channels now display at the correct aspect ratio.</b> Standard-definition channels carrying widescreen content in a 720×576 frame (common on European IPTV) were shown squished into a narrow 5:4 box on the Native engine. They now honor the stream's pixel aspect ratio and fill the correct 16:9 (or 4:3) shape.</li>
+    <li><b>Cleaner channel changes on the Native engine.</b> Switching channels no longer briefly flashes a garbled or black frame before the new stream settles — the picture holds the previous frame until the first clean frame of the new channel is ready, then cuts straight to it.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Sun, 12 Jul 2026 00:36:24 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.5/Observio-20.5-arm64.dmg" sparkle:version="585" sparkle:shortVersionString="20.5" length="87941906" type="application/octet-stream" sparkle:edSignature="wbIj7ML6wL+/y4AFyWv1hXvQjwh+NIqr/3Qd9mZHb8JVqjMUEROKbgeHtqKt1IXD968N6zVZ5buZSizbthr1Cw==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 20.5</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Native-engine picture-quality fixes on top of 20.4.</p>
+
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Anamorphic SD channels now display at the correct aspect ratio.</b> Standard-definition channels carrying widescreen content in a 720×576 frame (common on European IPTV) were shown squished into a narrow 5:4 box on the Native engine. They now honor the stream's pixel aspect ratio and fill the correct 16:9 (or 4:3) shape.</li>
+    <li><b>Cleaner channel changes on the Native engine.</b> Switching channels no longer briefly flashes a garbled or black frame before the new stream settles — the picture holds the previous frame until the first clean frame of the new channel is ready, then cuts straight to it.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 14 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Sun, 12 Jul 2026 00:36:24 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.5/Observio-20.5-x86_64.dmg" sparkle:version="585" sparkle:shortVersionString="20.5" length="89734397" type="application/octet-stream" sparkle:edSignature="wStRzdrfIBBJqjHq5TSEKC3UjRBqSeqJANTcr+OpN6c9Ontz84sU5cNsGHuOcDuN8JXjbqiUNmYWFeGQ7JfgBA==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
