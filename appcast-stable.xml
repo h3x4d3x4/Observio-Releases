@@ -431,5 +431,107 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 20.6</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Faster to the channel, lighter at launch, and now runs on macOS 13 Ventura.</p>
+
+  <h3 style="margin:14px 0 4px;">Faster channel changes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Observio remembers which engine works for each channel.</b> A stream the Native engine can't decode no longer costs the same 8–18 seconds of black every time you tune it — the app goes straight to the engine that played it last time.</li>
+    <li><b>Unplayable streams give up sooner</b> — 3 seconds instead of 8 when data arrives but isn't a parseable transport stream.</li>
+    <li><b>You can see what's happening.</b> The player shows "Switching to compatibility engine…" during a switch, and a stream that never responds surfaces a retryable error instead of spinning forever.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Faster, lighter launch</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Opens on your last playlist</b>, not the Welcome screen. (An explicit Welcome-screen choice in Settings is kept.)</li>
+    <li><b>The guide refresh no longer collides with your first tune.</b></li>
+    <li><b>Provider catch-up detection runs once</b>, not on every launch.</li>
+    <li><b>Reclaims disk space</b> — leftover files from a disabled experiment and interrupted saves (up to ~800 MB) are removed.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Simpler, calmer interface</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Shorter first run:</b> three-step tour; the picture-quality question no longer interrupts your first channel.</li>
+    <li><b>Channel rows and cards carry less.</b> Catch-up badge and next-programme line are off by default — <i>Show extra details in channel lists</i> in Settings brings them back.</li>
+    <li><b>Less duplicated chrome</b> in the toolbar and status bar; provider expiry shows only when it's within a week.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Compatibility</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Now supports macOS 13 Ventura.</b></li>
+    <li>Fixed the update feed advertising macOS 13 while the app required 14.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Also in this release (July stability fixes)</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>iOS: the Native engine recovers after calls, Siri and other audio interruptions</b>; audio decoding hardened against a field crash.</li>
+    <li><b>Visible reconnecting</b> ("Reconnecting… n/N") instead of a silent freeze; Immersive mode gains error/buffering/reconnect overlays.</li>
+    <li><b>Provider compatibility:</b> per-channel #EXTVLCOPT / #KODIPROP headers honoured; catch-up no longer stripped by group names; Xtream sign-in retries.</li>
+    <li><b>Data safety:</b> corrupt playlist store backed up instead of lost; credentials scrubbed from logs; friendlier M3U errors.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 13 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Thu, 03 Sep 2026 15:10:17 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.6/Observio-20.6-arm64.dmg" sparkle:version="690" sparkle:shortVersionString="20.6" length="87996457" type="application/octet-stream" sparkle:edSignature="piGt80Md+Ybeb2IPGTnVJVUXJ0aC3zPDEwZmdEy3UUGhnD22eNddLpz+nUZRMvaYS00tgWem+2yZLPWBiSStAg==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 20.6</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Faster to the channel, lighter at launch, and now runs on macOS 13 Ventura.</p>
+
+  <h3 style="margin:14px 0 4px;">Faster channel changes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Observio remembers which engine works for each channel.</b> A stream the Native engine can't decode no longer costs the same 8–18 seconds of black every time you tune it — the app goes straight to the engine that played it last time.</li>
+    <li><b>Unplayable streams give up sooner</b> — 3 seconds instead of 8 when data arrives but isn't a parseable transport stream.</li>
+    <li><b>You can see what's happening.</b> The player shows "Switching to compatibility engine…" during a switch, and a stream that never responds surfaces a retryable error instead of spinning forever.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Faster, lighter launch</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Opens on your last playlist</b>, not the Welcome screen. (An explicit Welcome-screen choice in Settings is kept.)</li>
+    <li><b>The guide refresh no longer collides with your first tune.</b></li>
+    <li><b>Provider catch-up detection runs once</b>, not on every launch.</li>
+    <li><b>Reclaims disk space</b> — leftover files from a disabled experiment and interrupted saves (up to ~800 MB) are removed.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Simpler, calmer interface</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Shorter first run:</b> three-step tour; the picture-quality question no longer interrupts your first channel.</li>
+    <li><b>Channel rows and cards carry less.</b> Catch-up badge and next-programme line are off by default — <i>Show extra details in channel lists</i> in Settings brings them back.</li>
+    <li><b>Less duplicated chrome</b> in the toolbar and status bar; provider expiry shows only when it's within a week.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Compatibility</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Now supports macOS 13 Ventura.</b></li>
+    <li>Fixed the update feed advertising macOS 13 while the app required 14.</li>
+  </ul>
+
+  <h3 style="margin:14px 0 4px;">Also in this release (July stability fixes)</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>iOS: the Native engine recovers after calls, Siri and other audio interruptions</b>; audio decoding hardened against a field crash.</li>
+    <li><b>Visible reconnecting</b> ("Reconnecting… n/N") instead of a silent freeze; Immersive mode gains error/buffering/reconnect overlays.</li>
+    <li><b>Provider compatibility:</b> per-channel #EXTVLCOPT / #KODIPROP headers honoured; catch-up no longer stripped by group names; Xtream sign-in retries.</li>
+    <li><b>Data safety:</b> corrupt playlist store backed up instead of lost; credentials scrubbed from logs; friendlier M3U errors.</li>
+  </ul>
+
+  <p style="margin-top:14px; color:#888;">Requires macOS 13 or later. Universal (Apple Silicon + Intel).</p>
+</div>
+            ]]></description>
+            <pubDate>Thu, 03 Sep 2026 15:10:17 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v20.6/Observio-20.6-x86_64.dmg" sparkle:version="690" sparkle:shortVersionString="20.6" length="89805114" type="application/octet-stream" sparkle:edSignature="y2ue+tALTluRF/5eyUxR03X0LFc4ggLLJRvhp4f2e4ybRuWOGBnD1j7kSmGBnoGAvfk6aWBSW1lbUQ0BKZ2YCQ==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
