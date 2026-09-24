@@ -533,5 +533,91 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Observio is now 1.0 — on the Mac, iPhone and iPad. This release brings a new program guide, pause live TV, seven languages, and fully open-source-licence-clean playback libraries.</p>
+  <h3 style="margin:14px 0 4px;">Program guide</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>The list guide is now the default:</b> channels on the left, the full schedule of the selected channel on the right. The timeline grid is one click away.</li>
+    <li><b>The guide follows your group.</b> It opens on the group you're browsing, and a group picker lets you look at any other.</li>
+    <li>The timeline grid now scrolls with the mouse or trackpad anywhere, including over the channel column.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Watching</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Pause live TV</b> and pick up where you left off (up to 10 minutes).</li>
+    <li><b>Watch your Mac recordings on iPhone and iPad</b>, and schedule recordings on the Mac from the phone's guide.</li>
+    <li><b>Open With</b> sends a channel to any video player installed on your Mac.</li>
+    <li>Subtitle search (OpenSubtitles, with your own free API key) and Trakt scrobbling.</li>
+    <li>Fixed channels that could play without sound in the MPV engine.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Your home and your channels</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Customize the home screen: reorder or hide rows and add discovery rows (trending, top rated, by language or year) built only from titles you can already play.</li>
+    <li>Multiple favorites lists.</li>
+    <li>Providers whose refresh failed are marked on their card, including sign-in problems, instead of failing silently.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Everywhere</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Seven languages:</b> English, Portuguese, Spanish, German, French, Italian and Dutch.</li>
+    <li>Better VoiceOver support and clearer wording throughout ("Guide" instead of "EPG", "Movies &amp; Series" instead of "VOD").</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Under the hood</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>The media libraries (mpv and FFmpeg) and the bundled ffmpeg tool are now built entirely under the LGPL, from source, with Apple's own TLS. Settings › About › Open Source Licenses links the exact source.</li>
+    <li>Version numbers restart at 1.0 on every platform. Nothing changes for you: this update installs over 20.6 as usual.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Thu, 24 Sep 2026 20:13:52 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0/Observio-1.0-arm64.dmg" sparkle:version="800" sparkle:shortVersionString="1.0" length="77632676" type="application/octet-stream" sparkle:edSignature="dU5PFwqeRcv456mIDVYDalGV2WtJN8mhXyj4Ys2ck5Bw5WEAMw5bPXS/aaz09z7ziX0LaHX8WWcN4oUy4VK3BQ==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Observio is now 1.0 — on the Mac, iPhone and iPad. This release brings a new program guide, pause live TV, seven languages, and fully open-source-licence-clean playback libraries.</p>
+  <h3 style="margin:14px 0 4px;">Program guide</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>The list guide is now the default:</b> channels on the left, the full schedule of the selected channel on the right. The timeline grid is one click away.</li>
+    <li><b>The guide follows your group.</b> It opens on the group you're browsing, and a group picker lets you look at any other.</li>
+    <li>The timeline grid now scrolls with the mouse or trackpad anywhere, including over the channel column.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Watching</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Pause live TV</b> and pick up where you left off (up to 10 minutes).</li>
+    <li><b>Watch your Mac recordings on iPhone and iPad</b>, and schedule recordings on the Mac from the phone's guide.</li>
+    <li><b>Open With</b> sends a channel to any video player installed on your Mac.</li>
+    <li>Subtitle search (OpenSubtitles, with your own free API key) and Trakt scrobbling.</li>
+    <li>Fixed channels that could play without sound in the MPV engine.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Your home and your channels</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Customize the home screen: reorder or hide rows and add discovery rows (trending, top rated, by language or year) built only from titles you can already play.</li>
+    <li>Multiple favorites lists.</li>
+    <li>Providers whose refresh failed are marked on their card, including sign-in problems, instead of failing silently.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Everywhere</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Seven languages:</b> English, Portuguese, Spanish, German, French, Italian and Dutch.</li>
+    <li>Better VoiceOver support and clearer wording throughout ("Guide" instead of "EPG", "Movies &amp; Series" instead of "VOD").</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Under the hood</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>The media libraries (mpv and FFmpeg) and the bundled ffmpeg tool are now built entirely under the LGPL, from source, with Apple's own TLS. Settings › About › Open Source Licenses links the exact source.</li>
+    <li>Version numbers restart at 1.0 on every platform. Nothing changes for you: this update installs over 20.6 as usual.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Thu, 24 Sep 2026 20:13:52 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0/Observio-1.0-x86_64.dmg" sparkle:version="800" sparkle:shortVersionString="1.0" length="79402336" type="application/octet-stream" sparkle:edSignature="+E3723fa5GLzSnKkpltVDLpqNNwOwwMUjWD6X+yZoPaK/93oPF7BWQ3EWZpbZPU/A8o0KFzzi8/jYjCx65HJCQ==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
