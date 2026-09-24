@@ -667,5 +667,47 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.1</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Fixes for the new program guide and Immersive mode.</p>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>The guide no longer shows "No channels in this group"</b> when you open it before your provider has finished loading. It now shows the channels as soon as they arrive.</li>
+    <li>The list guide opens on the first channel that has a schedule, instead of a separator row like "#### Portugal ####".</li>
+    <li>Switching to the timeline grid now scrolls straight to the current time instead of midnight.</li>
+    <li><b>⌘E opens the guide from the Home screen</b> too, on the provider you used last.</li>
+    <li>The window can be made smaller: the minimum size is now 800 × 600.</li>
+    <li><b>Immersive mode:</b> the controls and the Recent Channels row stay on screen while the pointer rests on them, so the highlight on the card you're pointing at no longer disappears.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Thu, 24 Sep 2026 22:24:37 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.1/Observio-1.0.1-arm64.dmg" sparkle:version="801" sparkle:shortVersionString="1.0.1" length="77676870" type="application/octet-stream" sparkle:edSignature="AGpf7sBmX+wUKBPEGMwUjjiGy1QueAbubRxkJ7fH3E0jRjShl1xVbhLvRjbG3WfwbbDmVtER42Wma3jXvOfRAQ==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.1</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Fixes for the new program guide and Immersive mode.</p>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>The guide no longer shows "No channels in this group"</b> when you open it before your provider has finished loading. It now shows the channels as soon as they arrive.</li>
+    <li>The list guide opens on the first channel that has a schedule, instead of a separator row like "#### Portugal ####".</li>
+    <li>Switching to the timeline grid now scrolls straight to the current time instead of midnight.</li>
+    <li><b>⌘E opens the guide from the Home screen</b> too, on the provider you used last.</li>
+    <li>The window can be made smaller: the minimum size is now 800 × 600.</li>
+    <li><b>Immersive mode:</b> the controls and the Recent Channels row stay on screen while the pointer rests on them, so the highlight on the card you're pointing at no longer disappears.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Thu, 24 Sep 2026 22:24:37 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.1/Observio-1.0.1-x86_64.dmg" sparkle:version="801" sparkle:shortVersionString="1.0.1" length="79413344" type="application/octet-stream" sparkle:edSignature="7TDLdH6bpsoalqUMV6lcRmZrA1LQ1mH8d3kG334P2w47ggjqMT+mG7p8d7Oi8KBV7L0K8nLTyhRcuhXqykG5CQ==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
