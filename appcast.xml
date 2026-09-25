@@ -709,5 +709,95 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.2</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A polish release: menus that all work, a better-behaved Immersive mode, and a lighter app.</p>
+  <h3 style="margin:14px 0 4px;">Menus and shortcuts</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Add Provider (⌘N), Add Provider from URL (⌘I), Export Backup and Import Backup now work</b> — they did nothing before. So does Picture in Picture.</li>
+    <li>The Playback, Audio and Channel menus work while a player window is in front and while paused, and in Immersive mode.</li>
+    <li>⌘M minimises again (Mute is ⌃⌘M) and ⌘C copies text again (Copy Channel Name is ⌥⌘C). One Edit and one View menu instead of two.</li>
+    <li>The Keyboard Shortcuts window (⌘/) now matches the real keys.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Immersive mode</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Esc, Esc leaves Immersive mode again</b>, and ⌘⇧I works to leave it.</li>
+    <li>Typing or scrolling in Settings no longer controls the player behind it.</li>
+    <li>The controls stay up while the pointer is on them or a menu is open.</li>
+    <li>Pressing Return after typing a channel number no longer restarts the stream.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Player window</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>The arrow keys skip by your Skip Step setting, and a spinner shows when a stream stalls.</li>
+    <li>⌘ shortcuts reach the menu bar instead of being taken by the player.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Lighter</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>About 30% less memory with a large program guide (repeated guide text is stored once).</li>
+    <li>Fewer background wake-ups: idle timers stop when nothing needs them.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Polish</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Loading screens instead of “No channels” or “No movies found” while a provider loads.</li>
+    <li>Times read naturally (“2h 50m left”), with proper plurals, in all seven languages.</li>
+    <li>Plain wording throughout: no more “EPG”, “VOD” or “AV+”.</li>
+    <li>Lists respond to the first click; better VoiceOver labels.</li>
+    <li>Help is up to date.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Fri, 25 Sep 2026 11:23:49 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.2/Observio-1.0.2-arm64.dmg" sparkle:version="810" sparkle:shortVersionString="1.0.2" length="77758085" type="application/octet-stream" sparkle:edSignature="BF0+MqCxlqaECsTCyvId3UQmIp3RGv0gJo1fkKXbKxb5sK5tUqhjsarlpPssgsCBpCb8sc86Kmaa3vUDvs20BA==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.2</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A polish release: menus that all work, a better-behaved Immersive mode, and a lighter app.</p>
+  <h3 style="margin:14px 0 4px;">Menus and shortcuts</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Add Provider (⌘N), Add Provider from URL (⌘I), Export Backup and Import Backup now work</b> — they did nothing before. So does Picture in Picture.</li>
+    <li>The Playback, Audio and Channel menus work while a player window is in front and while paused, and in Immersive mode.</li>
+    <li>⌘M minimises again (Mute is ⌃⌘M) and ⌘C copies text again (Copy Channel Name is ⌥⌘C). One Edit and one View menu instead of two.</li>
+    <li>The Keyboard Shortcuts window (⌘/) now matches the real keys.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Immersive mode</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Esc, Esc leaves Immersive mode again</b>, and ⌘⇧I works to leave it.</li>
+    <li>Typing or scrolling in Settings no longer controls the player behind it.</li>
+    <li>The controls stay up while the pointer is on them or a menu is open.</li>
+    <li>Pressing Return after typing a channel number no longer restarts the stream.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Player window</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>The arrow keys skip by your Skip Step setting, and a spinner shows when a stream stalls.</li>
+    <li>⌘ shortcuts reach the menu bar instead of being taken by the player.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Lighter</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>About 30% less memory with a large program guide (repeated guide text is stored once).</li>
+    <li>Fewer background wake-ups: idle timers stop when nothing needs them.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Polish</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Loading screens instead of “No channels” or “No movies found” while a provider loads.</li>
+    <li>Times read naturally (“2h 50m left”), with proper plurals, in all seven languages.</li>
+    <li>Plain wording throughout: no more “EPG”, “VOD” or “AV+”.</li>
+    <li>Lists respond to the first click; better VoiceOver labels.</li>
+    <li>Help is up to date.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Fri, 25 Sep 2026 11:23:49 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.2/Observio-1.0.2-x86_64.dmg" sparkle:version="810" sparkle:shortVersionString="1.0.2" length="79441165" type="application/octet-stream" sparkle:edSignature="8+ExeGVV4TYlwC1O8waSRsBYwToGHlYSLo61Fnh9nbJ90ZI0ZoNI71cpuC+NWOc+RQtsEfCDlXzJrB/a8AsZDQ==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
