@@ -751,5 +751,65 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.3</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Observio now keeps your place: close the player or leave full screen and you're back where you were browsing.</p>
+  <h3 style="margin:14px 0 4px;">Keeps your place</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Playing a channel no longer changes the group you're browsing.</b> Playing from Favorites, Recent, search, the guide or Movies &amp; Series used to switch the channel list to another group, or back to All Channels.</li>
+    <li>Choosing a group in the player's channel panel no longer changes the main window behind it.</li>
+    <li>The channel list no longer jumps to the new channel every time you change channel in the player.</li>
+    <li>Switching between Immersive and Classic keeps the section and view you were on.</li>
+    <li>Immersive mode remembers its sidebar section, search and grid position after you play something. Favorites shows all your favorites, not just those in the current group.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Immersive mode</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Parental controls now apply in Immersive mode.</b> Locked channels ask for your PIN, and the PIN window appears over full screen.</li>
+    <li>Playing from the guide or a channel's menu stays in Immersive instead of opening a separate player window.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Privacy</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Spotlight no longer shows hidden or parentally locked channels, and forgets channels from providers you've removed.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sun, 27 Sep 2026 01:35:18 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.3/Observio-1.0.3-arm64.dmg" sparkle:version="820" sparkle:shortVersionString="1.0.3" length="77797235" type="application/octet-stream" sparkle:edSignature="JaiWaHX2/cnsr/qZKaIH2F8BBE/uv3gH2TkZ+me11+r+jkWZ5cTQtTK7Cvii5JSlLsVUftQlrs/afQmXprMmCA==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.3</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Observio now keeps your place: close the player or leave full screen and you're back where you were browsing.</p>
+  <h3 style="margin:14px 0 4px;">Keeps your place</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Playing a channel no longer changes the group you're browsing.</b> Playing from Favorites, Recent, search, the guide or Movies &amp; Series used to switch the channel list to another group, or back to All Channels.</li>
+    <li>Choosing a group in the player's channel panel no longer changes the main window behind it.</li>
+    <li>The channel list no longer jumps to the new channel every time you change channel in the player.</li>
+    <li>Switching between Immersive and Classic keeps the section and view you were on.</li>
+    <li>Immersive mode remembers its sidebar section, search and grid position after you play something. Favorites shows all your favorites, not just those in the current group.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Immersive mode</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Parental controls now apply in Immersive mode.</b> Locked channels ask for your PIN, and the PIN window appears over full screen.</li>
+    <li>Playing from the guide or a channel's menu stays in Immersive instead of opening a separate player window.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Privacy</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Spotlight no longer shows hidden or parentally locked channels, and forgets channels from providers you've removed.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sun, 27 Sep 2026 01:35:18 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.3/Observio-1.0.3-x86_64.dmg" sparkle:version="820" sparkle:shortVersionString="1.0.3" length="79475260" type="application/octet-stream" sparkle:edSignature="rcqJdgaMlj235pcizmgiIKW0VG56K1NK2ciEeXvAaUxRAgADCqrpltLJQLZ+vqm6SQTysbF7Xi6hRq0MbrV4CA==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
