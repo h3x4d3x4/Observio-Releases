@@ -811,5 +811,53 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.4</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A new look, and movie and series details that come from your own provider.</p>
+  <h3 style="margin:14px 0 4px;">New icon</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Observio has a new icon and wave logo, in the Dock and inside the app.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Movies and series</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Details from your provider first.</b> Plot, cast, director, genres and trailers now come from your provider when it has them, with no setup.</li>
+    <li><b>Connect your own free TMDB key</b> to fill any gaps: Settings › Integrations › TMDB, paste the key and press Test &amp; Save. Both v3 keys and v4 read tokens work, and the key is kept in your Keychain.</li>
+    <li>Observio no longer ships a TMDB key of its own. Without your key, posters and details come from your provider only.</li>
+    <li>"Share setup" now brings your TMDB key along to your other devices.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Tue, 29 Sep 2026 23:22:10 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.4/Observio-1.0.4-arm64.dmg" sparkle:version="821" sparkle:shortVersionString="1.0.4" length="91635186" type="application/octet-stream" sparkle:edSignature="Ukk94l2LSCtdXFJrX+UvfwW3LogVquZMEwDDwuETYFnMwbqh+kDnuHvWPMGtw3yyIdVO5e3xpg0S0UAKoNxeAw==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.4</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A new look, and movie and series details that come from your own provider.</p>
+  <h3 style="margin:14px 0 4px;">New icon</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Observio has a new icon and wave logo, in the Dock and inside the app.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Movies and series</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Details from your provider first.</b> Plot, cast, director, genres and trailers now come from your provider when it has them, with no setup.</li>
+    <li><b>Connect your own free TMDB key</b> to fill any gaps: Settings › Integrations › TMDB, paste the key and press Test &amp; Save. Both v3 keys and v4 read tokens work, and the key is kept in your Keychain.</li>
+    <li>Observio no longer ships a TMDB key of its own. Without your key, posters and details come from your provider only.</li>
+    <li>"Share setup" now brings your TMDB key along to your other devices.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Tue, 29 Sep 2026 23:22:10 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.4/Observio-1.0.4-x86_64.dmg" sparkle:version="821" sparkle:shortVersionString="1.0.4" length="93270073" type="application/octet-stream" sparkle:edSignature="W0y/hnslgTJgB/gMrVoqz83Dsd0oCiVO6kXwvzSAJ2Zx8QwGFkgJUYOqrPsf4fizCOgpJ3XMVn/s75bDNa+oBQ==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
