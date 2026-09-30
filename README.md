@@ -1,41 +1,76 @@
-# Observio
+# Observio for Mac
 
-**A modern IPTV player for Mac and iPhone/iPad** — live TV, movies and series, a full program guide, and catch‑up, in a clean native interface. Bring your own provider; Observio is the player.
+Observio is a live TV and media player for Mac, iPhone, iPad and Android. It plays your own IPTV playlists and provider logins (M3U, Xtream Codes, Stalker portals), Plex, Emby and Jellyfin libraries, and HDHomeRun tuners, with a full TV Guide, catch-up, movies and series, and a full-screen TV Mode. Observio does not provide any channels or content; you bring your own sources.
 
-This repository hosts the public macOS release downloads and the automatic‑update feed.
+This repository hosts the macOS release downloads and the automatic-update feeds. The source code is private.
 
-## Download (macOS)
+Website: [observio.hexadexa.io](https://observio.hexadexa.io)
 
-Get the latest build from the [**Releases**](../../releases/latest) page:
+## Download
 
-- **Apple Silicon** (M1 or newer) — `Observio-<version>-arm64.dmg`
-- **Intel** — `Observio-<version>-x86_64.dmg`
+Get the latest version from the [Releases page](https://github.com/h3x4d3x4/Observio-Releases/releases/latest). Each release has two disk images:
 
-Open the DMG, drag **Observio** into **Applications**, and launch it. Builds are signed with a Developer ID and notarized by Apple. Requires **macOS 14 (Sonoma)** or later.
+| Your Mac | File |
+|---|---|
+| Apple silicon (M1 or later) | `Observio-<version>-arm64.dmg` |
+| Intel | `Observio-<version>-x86_64.dmg` |
 
-> iPhone and iPad ship separately through the App Store / TestFlight.
+Not sure which one you have? Open **Apple menu > About This Mac**: it lists either a "Chip" (Apple silicon) or a "Processor" (Intel).
 
-## What Observio does
+Open the disk image, drag **Observio** into **Applications**, and launch it.
 
-- **Live TV** with a fast, filterable channel list, favorites, and a full EPG program guide.
-- **Video on demand** — browse movies and series with automatic artwork, and resume exactly where you left off across devices and providers.
-- **Catch‑up / archive** playback for providers that support it.
-- **Media‑server libraries** — connect **Emby**, **Plex**, or **Jellyfin** and browse your libraries alongside live TV.
-- **Multiple playback engines**, chosen automatically per stream: a built‑in **Native** engine with Metal‑accelerated deinterlacing for interlaced (1080i) sports, **MPV** for broad codec coverage, and Apple's **AVPlayer** for HLS/VOD.
-- **Chromecast**, subtitle import, downloads, and a picture‑quality vs. smooth‑playback control.
-- Works with **Xtream Codes**, plain **M3U** playlists, **Stalker** portals, and **HDHomeRun** tuners.
+## Requirements
 
-Observio does not provide any channels, streams, or content — you supply your own provider or playlist.
+- macOS 13 Ventura or later
+- Apple silicon or Intel Mac
 
-## Automatic updates
+Observio is free to try. See [observio.hexadexa.io](https://observio.hexadexa.io) for details.
 
-Observio keeps itself up to date via [Sparkle](https://sparkle-project.org). You'll be prompted in‑app when a new version ships — with the full changelog — or you can check any time from **Settings → Updates**. Updates are cryptographically signed (EdDSA) and verified before install.
+## Updates
 
-## Support & feedback
+Observio updates itself in the app using [Sparkle](https://sparkle-project.org). It checks automatically, shows the release notes, and installs with one click. You can also check any time with **Observio > Check for Updates…**.
 
-- **Report a bug** from inside the app: **Help → Report a Bug** (it attaches diagnostics for you).
-- Release notes for every version live on the [Releases](../../releases) page and in‑app under **Settings → Release Notes**.
+Two update feeds are published from this repository:
+
+| Feed | URL | Contents |
+|---|---|---|
+| Stable | `https://observio.hexadexa.io/appcast-stable.xml` | Stable releases |
+| Beta | `https://observio.hexadexa.io/appcast.xml` | Stable releases and test builds |
+
+Both addresses redirect to [`appcast-stable.xml`](appcast-stable.xml) and [`appcast.xml`](appcast.xml) in this repository. Every update is signed with an EdDSA key, and Sparkle verifies the signature before installing.
+
+## Verifying downloads
+
+Observio is signed with an Apple Developer ID, and every disk image is notarized by Apple with the notarization ticket attached, so macOS checks it when you open it. To check yourself:
+
+```sh
+# The disk image carries Apple's notarization ticket
+xcrun stapler validate Observio-<version>-arm64.dmg
+
+# The installed app is signed and accepted by Gatekeeper
+spctl --assess --type execute -v /Applications/Observio.app
+codesign --verify --deep --strict -v /Applications/Observio.app
+```
+
+## Release notes
+
+- Each version's notes are on the [Releases page](https://github.com/h3x4d3x4/Observio-Releases/releases).
+- The full history across all platforms is at [observio.hexadexa.io/changelog](https://observio.hexadexa.io/changelog).
+- The update window in the app shows the notes for the version on offer.
+
+## Other platforms
+
+- **iPhone and iPad:** distributed through Apple, not from this repository. See [observio.hexadexa.io](https://observio.hexadexa.io) for availability.
+- **Android, Android TV, Google TV and Fire TV:** see [Observio for Android](https://github.com/h3x4d3x4/Observio-Android-Releases) and the install guide at [observio.hexadexa.io/android](https://observio.hexadexa.io/android).
+
+## Support and privacy
+
+- Help and FAQ: [observio.hexadexa.io/support](https://observio.hexadexa.io/support)
+- Privacy policy: [observio.hexadexa.io/privacy](https://observio.hexadexa.io/privacy)
+- Report a problem from inside the app with **Observio > Report a Bug…** (it can attach diagnostic logs), or email [andrei@hexadexa.dev](mailto:andrei@hexadexa.dev).
+
+Open-source components bundled with the app, and their licenses, are listed in the app under **Settings > About > Open Source Licenses**.
 
 ---
 
-More at [observio.hexadexa.io](https://observio.hexadexa.io).
+Observio is made by [Hexadexa](https://hexadexa.io).
