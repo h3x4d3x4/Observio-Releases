@@ -142,7 +142,7 @@
   <ul style="margin:0; padding-left:20px;">
     <li><b>Add Provider (⌘N), Add Provider from URL (⌘I), Export Backup and Import Backup now work</b> — they did nothing before. So does Picture in Picture.</li>
     <li>The Playback, Audio and Channel menus work while a player window is in front and while paused, and in Immersive mode.</li>
-    <li>⌘M minimises again (Mute is ⌃⌘M) and ⌘C copies text again (Copy Channel Name is ⌥⌘C). One Edit and one View menu instead of two.</li>
+    <li>⌘M minimizes again (Mute is ⌃⌘M) and ⌘C copies text again (Copy Channel Name is ⌥⌘C). One Edit and one View menu instead of two.</li>
     <li>The Keyboard Shortcuts window (⌘/) now matches the real keys.</li>
   </ul>
   <h3 style="margin:14px 0 4px;">Immersive mode</h3>
@@ -187,7 +187,7 @@
   <ul style="margin:0; padding-left:20px;">
     <li><b>Add Provider (⌘N), Add Provider from URL (⌘I), Export Backup and Import Backup now work</b> — they did nothing before. So does Picture in Picture.</li>
     <li>The Playback, Audio and Channel menus work while a player window is in front and while paused, and in Immersive mode.</li>
-    <li>⌘M minimises again (Mute is ⌃⌘M) and ⌘C copies text again (Copy Channel Name is ⌥⌘C). One Edit and one View menu instead of two.</li>
+    <li>⌘M minimizes again (Mute is ⌃⌘M) and ⌘C copies text again (Copy Channel Name is ⌥⌘C). One Edit and one View menu instead of two.</li>
     <li>The Keyboard Shortcuts window (⌘/) now matches the real keys.</li>
   </ul>
   <h3 style="margin:14px 0 4px;">Immersive mode</h3>
