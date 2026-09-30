@@ -9,7 +9,7 @@
             <title>Version 1.0</title>
             <description><![CDATA[
 <div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
-  <p>Observio is now 1.0 — on the Mac, iPhone and iPad. This release brings a new program guide, pause live TV, seven languages, and fully open-source-licence-clean playback libraries.</p>
+  <p>Observio is now 1.0 — on the Mac, iPhone and iPad. This release brings a new program guide, pause live TV, seven languages, and playback libraries built entirely under open-source licenses.</p>
   <h3 style="margin:14px 0 4px;">Program guide</h3>
   <ul style="margin:0; padding-left:20px;">
     <li><b>The list guide is now the default:</b> channels on the left, the full schedule of the selected channel on the right. The timeline grid is one click away.</li>
@@ -38,7 +38,7 @@
   <h3 style="margin:14px 0 4px;">Under the hood</h3>
   <ul style="margin:0; padding-left:20px;">
     <li>The media libraries (mpv and FFmpeg) and the bundled ffmpeg tool are now built entirely under the LGPL, from source, with Apple's own TLS. Settings › About › Open Source Licenses links the exact source.</li>
-    <li>Version numbers restart at 1.0 on every platform. Nothing changes for you: this update installs over 20.6 as usual.</li>
+    <li>Version numbers now start at 1.0 on every platform. This update installs over earlier versions as usual.</li>
   </ul>
 </div>
             ]]></description>
@@ -52,7 +52,7 @@
             <title>Version 1.0</title>
             <description><![CDATA[
 <div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
-  <p>Observio is now 1.0 — on the Mac, iPhone and iPad. This release brings a new program guide, pause live TV, seven languages, and fully open-source-licence-clean playback libraries.</p>
+  <p>Observio is now 1.0 — on the Mac, iPhone and iPad. This release brings a new program guide, pause live TV, seven languages, and playback libraries built entirely under open-source licenses.</p>
   <h3 style="margin:14px 0 4px;">Program guide</h3>
   <ul style="margin:0; padding-left:20px;">
     <li><b>The list guide is now the default:</b> channels on the left, the full schedule of the selected channel on the right. The timeline grid is one click away.</li>
@@ -81,7 +81,7 @@
   <h3 style="margin:14px 0 4px;">Under the hood</h3>
   <ul style="margin:0; padding-left:20px;">
     <li>The media libraries (mpv and FFmpeg) and the bundled ffmpeg tool are now built entirely under the LGPL, from source, with Apple's own TLS. Settings › About › Open Source Licenses links the exact source.</li>
-    <li>Version numbers restart at 1.0 on every platform. Nothing changes for you: this update installs over 20.6 as usual.</li>
+    <li>Version numbers now start at 1.0 on every platform. This update installs over earlier versions as usual.</li>
   </ul>
 </div>
             ]]></description>
