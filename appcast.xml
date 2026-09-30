@@ -907,5 +907,97 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.5</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>TV Mode arrives, the TV Guide is rebuilt, and the whole app looks and feels like one.</p>
+  <h3 style="margin:14px 0 4px;">TV Mode</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>TV Mode replaces Immersive.</b> A full-screen, lean-back Observio for the big screen: the TV Guide, Live TV, Home, Movies &amp; Series, My List, Search, Recordings and Settings, all driven by the keyboard, the mouse or the iPhone remote. View › TV Mode (⌘⇧T; ⌘⇧I still works). If you used Immersive, you now open in TV Mode.</li>
+    <li>The same interface as Observio on Android TV: a channel list that walks back through the days, one calm info band with your settings one click away, and Quick Controls for picture, sound and subtitles.</li>
+    <li>Choose what each key does in Settings › Keyboard &amp; Remote.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">TV Guide</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Faster and clearer.</b> The guide is redrawn in one pass, so scrolling stays smooth even with thousands of channels. Titles stay readable at the left edge, one line marks now, and the row you're on opens up with the time and a description.</li>
+    <li><b>The grid is the default view again.</b> Your choice of agenda or grid is remembered.</li>
+    <li>"Program Guide" is now called <b>TV Guide</b> everywhere.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Channels</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>One number per channel, everywhere.</b> A channel keeps the same number in every group, in the guide, in TV Mode and when you type it.</li>
+    <li>Provider dividers such as "#### Portugal ####" show as section headers and are skipped when you change channel.</li>
+    <li>Hovering a channel or a poster keeps it highlighted while the pointer rests on it.</li>
+    <li>Arrow to a channel in the list to see what's on next and later.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Player</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>A progress line under the program shows how far in you are and how many minutes are left.</li>
+    <li>The channel number and a red LIVE badge next to the channel name; stream details in clean capital badges.</li>
+    <li>The channel panel (P) shows numbers and progress, switches groups with ‹ ›, and its guide lists several days with replay days marked. Pick a program to Replay, Watch or be reminded.</li>
+    <li>Lighter on your Mac: the panels and bars no longer blur the video behind them.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Also</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>The Playback Rate setting now applies to movies, episodes and catch-up (live TV always plays at normal speed).</li>
+    <li>observio:// links from your iPhone open on the Mac, and always ask first.</li>
+    <li>Casting only serves your own playlist to your TV.</li>
+    <li>TV Mode and the new screens are translated into Portuguese, Spanish, German, French, Italian and Dutch.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Wed, 30 Sep 2026 18:42:53 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.5/Observio-1.0.5-arm64.dmg" sparkle:version="910" sparkle:shortVersionString="1.0.5" length="93328230" type="application/octet-stream" sparkle:edSignature="JQsAS0pRzc5AbDZ+114RihyrFTikVtjI6CzeHxM8r/9Bu2Q7u7qQjjJZmTsJi/9q+N4NqTWZrSnw4Q+7AYUVAQ==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.5</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>TV Mode arrives, the TV Guide is rebuilt, and the whole app looks and feels like one.</p>
+  <h3 style="margin:14px 0 4px;">TV Mode</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>TV Mode replaces Immersive.</b> A full-screen, lean-back Observio for the big screen: the TV Guide, Live TV, Home, Movies &amp; Series, My List, Search, Recordings and Settings, all driven by the keyboard, the mouse or the iPhone remote. View › TV Mode (⌘⇧T; ⌘⇧I still works). If you used Immersive, you now open in TV Mode.</li>
+    <li>The same interface as Observio on Android TV: a channel list that walks back through the days, one calm info band with your settings one click away, and Quick Controls for picture, sound and subtitles.</li>
+    <li>Choose what each key does in Settings › Keyboard &amp; Remote.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">TV Guide</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Faster and clearer.</b> The guide is redrawn in one pass, so scrolling stays smooth even with thousands of channels. Titles stay readable at the left edge, one line marks now, and the row you're on opens up with the time and a description.</li>
+    <li><b>The grid is the default view again.</b> Your choice of agenda or grid is remembered.</li>
+    <li>"Program Guide" is now called <b>TV Guide</b> everywhere.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Channels</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>One number per channel, everywhere.</b> A channel keeps the same number in every group, in the guide, in TV Mode and when you type it.</li>
+    <li>Provider dividers such as "#### Portugal ####" show as section headers and are skipped when you change channel.</li>
+    <li>Hovering a channel or a poster keeps it highlighted while the pointer rests on it.</li>
+    <li>Arrow to a channel in the list to see what's on next and later.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Player</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>A progress line under the program shows how far in you are and how many minutes are left.</li>
+    <li>The channel number and a red LIVE badge next to the channel name; stream details in clean capital badges.</li>
+    <li>The channel panel (P) shows numbers and progress, switches groups with ‹ ›, and its guide lists several days with replay days marked. Pick a program to Replay, Watch or be reminded.</li>
+    <li>Lighter on your Mac: the panels and bars no longer blur the video behind them.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Also</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>The Playback Rate setting now applies to movies, episodes and catch-up (live TV always plays at normal speed).</li>
+    <li>observio:// links from your iPhone open on the Mac, and always ask first.</li>
+    <li>Casting only serves your own playlist to your TV.</li>
+    <li>TV Mode and the new screens are translated into Portuguese, Spanish, German, French, Italian and Dutch.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Wed, 30 Sep 2026 18:42:53 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.5/Observio-1.0.5-x86_64.dmg" sparkle:version="910" sparkle:shortVersionString="1.0.5" length="95172056" type="application/octet-stream" sparkle:edSignature="rE4CwPONgu3FTbIQtCNYujK5+MsU4DEPpoeT8OecN+U0tGm9WSuNDL3P8a1pJ5N4H0zsPiRINCaoWW9SJIcdDA==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
