@@ -67,7 +67,7 @@ codesign --verify --deep --strict -v /Applications/Observio.app
 
 - Help and FAQ: [observio.hexadexa.io/support](https://observio.hexadexa.io/support)
 - Privacy policy: [observio.hexadexa.io/privacy](https://observio.hexadexa.io/privacy)
-- Report a problem from inside the app with **Observio > Report a Bug…** (it can attach diagnostic logs), or email [andrei@hexadexa.dev](mailto:andrei@hexadexa.dev).
+- Report a problem from inside the app with **Help > Report a Bug…** (it can attach diagnostic logs), or email [andrei@hexadexa.dev](mailto:andrei@hexadexa.dev).
 
 Open-source components bundled with the app, and their licenses, are listed in the app under **Settings > About > Open Source Licenses**.
 
