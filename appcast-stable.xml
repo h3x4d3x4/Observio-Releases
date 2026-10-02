@@ -423,5 +423,75 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.6</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Your devices stay in step, series get their artwork without any setup, and covers load faster.</p>
+  <h3 style="margin:14px 0 4px;">Local Network Sync</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Pair your Mac with your iPhone, iPad and Android devices</b> with a code (Settings › Backup &amp; Restore). Favorites, watch progress, watchlist, hidden channels and groups, custom lists and your playback preferences then stay in step over your Wi-Fi, directly between your devices and encrypted. Nothing goes through a server.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Movies &amp; Series</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Series posters and details without a TMDB key:</b> when your provider has no artwork for a series, Observio fills in its poster, plot, genres, rating and cast from TVmaze. Your provider's own details always come first.</li>
+    <li><b>Covers load faster:</b> what's on screen loads first, each cover appears as soon as it's ready, and the work happens in the background so the app stays smooth with large libraries.</li>
+    <li>Details looked up on TMDB are kept for at most six months, as TMDB's terms ask.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Player</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>One bar on live TV:</b> the programme from the guide. When you pause or skip back, the bar shows where you are and a red LIVE button takes you back.</li>
+    <li>Fixes for casting and for channels that start mid-picture.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Also</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Channels without a logo show their initials on their own colour in the guide.</li>
+    <li>Adult content stays out of Home and suggestions unless you turn it on, and follows what your provider marks as adult.</li>
+    <li>Profiles with a PIN keep it more securely, and ask for it before they can be edited or deleted.</li>
+    <li>Settings › Licences lists the full texts of the open-source libraries Observio uses.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Fri, 02 Oct 2026 12:18:47 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.6/Observio-1.0.6-arm64.dmg" sparkle:version="960" sparkle:shortVersionString="1.0.6" length="79472939" type="application/octet-stream" sparkle:edSignature="9nHPGixad0aoIlgmAQcWlyNLUEAjs/KoVf6YXBCoyWmASzs5hH7WGqhB/vXvSqGGb626Spx9Dj3a7MSnaHQZDQ==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.6</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Your devices stay in step, series get their artwork without any setup, and covers load faster.</p>
+  <h3 style="margin:14px 0 4px;">Local Network Sync</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Pair your Mac with your iPhone, iPad and Android devices</b> with a code (Settings › Backup &amp; Restore). Favorites, watch progress, watchlist, hidden channels and groups, custom lists and your playback preferences then stay in step over your Wi-Fi, directly between your devices and encrypted. Nothing goes through a server.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Movies &amp; Series</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Series posters and details without a TMDB key:</b> when your provider has no artwork for a series, Observio fills in its poster, plot, genres, rating and cast from TVmaze. Your provider's own details always come first.</li>
+    <li><b>Covers load faster:</b> what's on screen loads first, each cover appears as soon as it's ready, and the work happens in the background so the app stays smooth with large libraries.</li>
+    <li>Details looked up on TMDB are kept for at most six months, as TMDB's terms ask.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Player</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>One bar on live TV:</b> the programme from the guide. When you pause or skip back, the bar shows where you are and a red LIVE button takes you back.</li>
+    <li>Fixes for casting and for channels that start mid-picture.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Also</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Channels without a logo show their initials on their own colour in the guide.</li>
+    <li>Adult content stays out of Home and suggestions unless you turn it on, and follows what your provider marks as adult.</li>
+    <li>Profiles with a PIN keep it more securely, and ask for it before they can be edited or deleted.</li>
+    <li>Settings › Licences lists the full texts of the open-source libraries Observio uses.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Fri, 02 Oct 2026 12:18:47 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.6/Observio-1.0.6-x86_64.dmg" sparkle:version="960" sparkle:shortVersionString="1.0.6" length="81373841" type="application/octet-stream" sparkle:edSignature="2XE1Gn8yTmq/esepS059kAH5aYy1RJU92M1d7XJLvfPiAc0Cmb3U0LpVbADr7E5mbMrliDEg/R731fqAK937DQ==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
