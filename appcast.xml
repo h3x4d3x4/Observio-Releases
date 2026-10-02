@@ -493,5 +493,51 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.7</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Plex servers connect more reliably, and the fullscreen player gets a Close button.</p>
+  <h3 style="margin:14px 0 4px;">Plex</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Adding a Plex account finds a working address:</b> Observio tries every address your server offers at once (same network, then direct over the internet, then Plex Relay) and keeps the first one that really serves your library.</li>
+    <li><b>Saved Plex accounts follow the server when its address changes:</b> a library refresh asks Plex for the current address and switches to it.</li>
+    <li>Fixed films from some Plex servers that never started playing.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Player</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Close button in fullscreen:</b> top left, where the window's close button sits. It stops playback and takes you back to the app (same as ⌘W).</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Fri, 02 Oct 2026 14:43:47 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.7/Observio-1.0.7-arm64.dmg" sparkle:version="980" sparkle:shortVersionString="1.0.7" length="79493126" type="application/octet-stream" sparkle:edSignature="mZUEmdZifYiFia/XhRWs4C7RKb3cQ7QpjYa7BbTyzG3CCNkoYicYar5pHtkjVkmbWcUJKJjW/nHeG65H6OMKAQ==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.7</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Plex servers connect more reliably, and the fullscreen player gets a Close button.</p>
+  <h3 style="margin:14px 0 4px;">Plex</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Adding a Plex account finds a working address:</b> Observio tries every address your server offers at once (same network, then direct over the internet, then Plex Relay) and keeps the first one that really serves your library.</li>
+    <li><b>Saved Plex accounts follow the server when its address changes:</b> a library refresh asks Plex for the current address and switches to it.</li>
+    <li>Fixed films from some Plex servers that never started playing.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Player</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Close button in fullscreen:</b> top left, where the window's close button sits. It stops playback and takes you back to the app (same as ⌘W).</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Fri, 02 Oct 2026 14:43:47 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.7/Observio-1.0.7-x86_64.dmg" sparkle:version="980" sparkle:shortVersionString="1.0.7" length="81363357" type="application/octet-stream" sparkle:edSignature="9hB6d9pUEP19rvYGPt32RCxjdwlXNuwXVM3stExfnS7nCpGvwu8bo+2FbTzyI88EyyWOX9o2/k3klgTq3pgwCw==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
