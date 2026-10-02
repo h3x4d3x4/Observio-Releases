@@ -539,5 +539,45 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.8</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Plex servers that are only reachable through Plex Relay now play.</p>
+  <h3 style="margin:14px 0 4px;">Plex</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Films and series play over Plex Relay:</b> when your server can only be reached through Plex's relay, Observio plays the server's converted stream (lower quality, made for the relay) instead of the original file. If playing the original file fails on any Plex server, it switches to the converted stream by itself.</li>
+    <li><b>When a server moves, playback follows:</b> before a Plex title starts, Observio checks the saved address and, if the server moved, finds its new one and switches to it. A server that can't be reached says so within seconds instead of trying for minutes.</li>
+    <li><b>"Sign in to Plex again":</b> when Plex no longer accepts an account's sign-in, the account says so in the sidebar and one click signs you in again, keeping the account.</li>
+    <li>A title that never started no longer resets your resume point on Plex, Emby or Jellyfin.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Fri, 02 Oct 2026 15:40:32 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.8/Observio-1.0.8-arm64.dmg" sparkle:version="990" sparkle:shortVersionString="1.0.8" length="79542671" type="application/octet-stream" sparkle:edSignature="Lu9IbRPhvEdIYcB6oyX++chbd3Kfz70+8gD3qdEcgxH/6JLqwfh1vOwXCRKAtPVp2sf8YykQ6AfViBe72PJfCg==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.8</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Plex servers that are only reachable through Plex Relay now play.</p>
+  <h3 style="margin:14px 0 4px;">Plex</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Films and series play over Plex Relay:</b> when your server can only be reached through Plex's relay, Observio plays the server's converted stream (lower quality, made for the relay) instead of the original file. If playing the original file fails on any Plex server, it switches to the converted stream by itself.</li>
+    <li><b>When a server moves, playback follows:</b> before a Plex title starts, Observio checks the saved address and, if the server moved, finds its new one and switches to it. A server that can't be reached says so within seconds instead of trying for minutes.</li>
+    <li><b>"Sign in to Plex again":</b> when Plex no longer accepts an account's sign-in, the account says so in the sidebar and one click signs you in again, keeping the account.</li>
+    <li>A title that never started no longer resets your resume point on Plex, Emby or Jellyfin.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Fri, 02 Oct 2026 15:40:32 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.8/Observio-1.0.8-x86_64.dmg" sparkle:version="990" sparkle:shortVersionString="1.0.8" length="81429700" type="application/octet-stream" sparkle:edSignature="Tv0Lv2UneGyiAdBNGiRf9waR6hT+1qaGzEH6RjZ0mINasRGOHtWO/d2QWNCQVEWFKB4PXKZVgvTPvEsGJ0PkDQ==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
