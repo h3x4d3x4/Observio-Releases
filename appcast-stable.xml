@@ -741,5 +741,57 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.12</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Lists that keep their channels, a smoother loading bar, and a remote that also works with Android TV.</p>
+  <h3 style="margin:14px 0 4px;">Channels</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Custom lists keep their channels:</b> a list used to lose its channels after a provider refresh (it still showed the count). Lists now follow the channel itself, and on the Mac a list in the sidebar opens its channels again.</li>
+    <li><b>Favorites switch at once</b> when you click the star, even on big providers.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Look &amp; feel</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>A smoother loading bar</b> that glides instead of flashing, and doesn't appear at all for quick loads.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Remote</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>The iPhone remote can now also control <b>Observio on Android TV</b>, on the same network.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sat, 10 Oct 2026 22:12:15 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.12/Observio-1.0.12-arm64.dmg" sparkle:version="1130" sparkle:shortVersionString="1.0.12" length="71903860" type="application/octet-stream" sparkle:edSignature="kmGbpAXBbpFvYufVciEmDJqk2+Gd2Lx8zg8lfg+LQ7zfYiXBiTnOtcvRz4T0FXVFLIKUeTEJfS7LMKF7K3QjDQ==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.12</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Lists that keep their channels, a smoother loading bar, and a remote that also works with Android TV.</p>
+  <h3 style="margin:14px 0 4px;">Channels</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Custom lists keep their channels:</b> a list used to lose its channels after a provider refresh (it still showed the count). Lists now follow the channel itself, and on the Mac a list in the sidebar opens its channels again.</li>
+    <li><b>Favorites switch at once</b> when you click the star, even on big providers.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Look &amp; feel</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>A smoother loading bar</b> that glides instead of flashing, and doesn't appear at all for quick loads.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Remote</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>The iPhone remote can now also control <b>Observio on Android TV</b>, on the same network.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sat, 10 Oct 2026 22:12:15 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.12/Observio-1.0.12-x86_64.dmg" sparkle:version="1130" sparkle:shortVersionString="1.0.12" length="73780944" type="application/octet-stream" sparkle:edSignature="VJPu7HcQcCQg8Gbpn9mSj9TfOO6KxRDeGisjlXzwX+QLTlE9ENmCe7PTdrx7PevChDE1bzCI0e5jJWDC/f6tBA==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
