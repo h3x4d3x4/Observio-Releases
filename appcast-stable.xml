@@ -677,5 +677,69 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.11</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Live TV that recovers by itself, clearer errors with a way forward, and a calmer look.</p>
+  <h3 style="margin:14px 0 4px;">Playback</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Live channels recover by themselves:</b> when a stream drops, Observio fetches a fresh link, retries as soon as your network is back, and keeps trying for about three minutes before it shows an error.</li>
+    <li><b>Clearer errors:</b> a playback problem now says what it likely is (the provider refused the channel, the stream isn't responding, the format isn't supported) and what to try.</li>
+    <li><b>Try Another Engine</b> (Playback menu, TV Mode's quick controls and the error card) replays a channel on a different engine, keeping your place in films and series.</li>
+    <li>Live streams that stall recover instead of freezing on a still picture.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Channels &amp; guide</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>What's on now shows straight away</b> for Xtream channels, even before the full guide has loaded, and big guides use much less memory.</li>
+    <li><b>Hidden channels can be brought back:</b> Settings › Hidden Channels now lists every hidden channel, with Unhide and Unhide All.</li>
+    <li>Catch-up is offered only within each channel's archive, so older programmes no longer offer a replay that fails.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Look &amp; feel</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>One slim loading bar</b> everywhere, instead of different spinners and logos.</li>
+    <li>Channel cards no longer flash white when you point at them.</li>
+    <li>Provider icons and colours match on every screen.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sat, 10 Oct 2026 16:58:45 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.11/Observio-1.0.11-arm64.dmg" sparkle:version="1120" sparkle:shortVersionString="1.0.11" length="71416362" type="application/octet-stream" sparkle:edSignature="Yqs+u/fzwJeXb8vphUm80UqkpzoQ08LcHzDFjwllLkzxVO7hIfPyMZ4RA2/ASATvpyxX+pPEYvR3srg2UJYmBA==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.11</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Live TV that recovers by itself, clearer errors with a way forward, and a calmer look.</p>
+  <h3 style="margin:14px 0 4px;">Playback</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Live channels recover by themselves:</b> when a stream drops, Observio fetches a fresh link, retries as soon as your network is back, and keeps trying for about three minutes before it shows an error.</li>
+    <li><b>Clearer errors:</b> a playback problem now says what it likely is (the provider refused the channel, the stream isn't responding, the format isn't supported) and what to try.</li>
+    <li><b>Try Another Engine</b> (Playback menu, TV Mode's quick controls and the error card) replays a channel on a different engine, keeping your place in films and series.</li>
+    <li>Live streams that stall recover instead of freezing on a still picture.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Channels &amp; guide</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>What's on now shows straight away</b> for Xtream channels, even before the full guide has loaded, and big guides use much less memory.</li>
+    <li><b>Hidden channels can be brought back:</b> Settings › Hidden Channels now lists every hidden channel, with Unhide and Unhide All.</li>
+    <li>Catch-up is offered only within each channel's archive, so older programmes no longer offer a replay that fails.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Look &amp; feel</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>One slim loading bar</b> everywhere, instead of different spinners and logos.</li>
+    <li>Channel cards no longer flash white when you point at them.</li>
+    <li>Provider icons and colours match on every screen.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sat, 10 Oct 2026 16:58:45 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.11/Observio-1.0.11-x86_64.dmg" sparkle:version="1120" sparkle:shortVersionString="1.0.11" length="73332095" type="application/octet-stream" sparkle:edSignature="6yGZDEhdV1SFFx7eHR4EYiUATfK/WXwA0Jrw7O/6C7BrJ8tYH/61WPV2lZvjwtDg8aocWEuJ2A5qEqb4T3XpCw==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
