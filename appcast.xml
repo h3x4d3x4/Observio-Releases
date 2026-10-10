@@ -613,5 +613,69 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.10</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Steadier playback, recording that needs only one connection, and a loading screen instead of an empty window.</p>
+  <h3 style="margin:14px 0 4px;">Playback</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Fixes a crash on Mac</b> that could happen when the audio output changed (AirPods, a display with speakers) while a channel was stopping or changing.</li>
+    <li><b>Channels from providers that check the player now play on the built-in engine too:</b> it sends your User-Agent and the channel's own headers.</li>
+    <li><b>Channel headers with commas</b> (browser User-Agents) are no longer broken up, and a new User-Agent in Settings applies straight away.</li>
+    <li><b>Skipping in movies and series is faster,</b> and pressing skip several times in a row adds up.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Recording</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Recording saves the stream you're watching,</b> so it needs no extra connection from your provider (most allow only one). It stops when you change channel or close the player, and "Auto-stop after" applies.</li>
+    <li><b>Want recordings that keep going in the background?</b> Turn on Settings › Recording › Record over a second connection, only if your provider allows two or more connections at once.</li>
+    <li>If the stream reconnects during a recording, it continues in a new part file instead of starting over.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Guide &amp; startup</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>A loading screen</b> shows while your providers and channels load, instead of an empty window.</li>
+    <li><b>Large guides refresh reliably:</b> the same guide is no longer downloaded several times at once.</li>
+    <li>The guide database and the playlist backup use much less disk space.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sat, 10 Oct 2026 12:49:11 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.10/Observio-1.0.10-arm64.dmg" sparkle:version="1010" sparkle:shortVersionString="1.0.10" length="79669696" type="application/octet-stream" sparkle:edSignature="gZCPqHqybC6f21q7NyyBQv1xKmd8szrJyGh56wMd/LSeuEN876f77HWA67l3orWB4gIbv8faG8CU8c645VotCg==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.10</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>Steadier playback, recording that needs only one connection, and a loading screen instead of an empty window.</p>
+  <h3 style="margin:14px 0 4px;">Playback</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Fixes a crash on Mac</b> that could happen when the audio output changed (AirPods, a display with speakers) while a channel was stopping or changing.</li>
+    <li><b>Channels from providers that check the player now play on the built-in engine too:</b> it sends your User-Agent and the channel's own headers.</li>
+    <li><b>Channel headers with commas</b> (browser User-Agents) are no longer broken up, and a new User-Agent in Settings applies straight away.</li>
+    <li><b>Skipping in movies and series is faster,</b> and pressing skip several times in a row adds up.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Recording</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Recording saves the stream you're watching,</b> so it needs no extra connection from your provider (most allow only one). It stops when you change channel or close the player, and "Auto-stop after" applies.</li>
+    <li><b>Want recordings that keep going in the background?</b> Turn on Settings › Recording › Record over a second connection, only if your provider allows two or more connections at once.</li>
+    <li>If the stream reconnects during a recording, it continues in a new part file instead of starting over.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Guide &amp; startup</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>A loading screen</b> shows while your providers and channels load, instead of an empty window.</li>
+    <li><b>Large guides refresh reliably:</b> the same guide is no longer downloaded several times at once.</li>
+    <li>The guide database and the playlist backup use much less disk space.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sat, 10 Oct 2026 12:49:11 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.10/Observio-1.0.10-x86_64.dmg" sparkle:version="1010" sparkle:shortVersionString="1.0.10" length="81478871" type="application/octet-stream" sparkle:edSignature="ydn9EhH0mOLNENtHDDPLK61tXTMtVOnUNRgj5mne79NXms1OoYs8hKJJ4epAYXGPp/cnyCVVbdIWUGJGQjhmDA==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
