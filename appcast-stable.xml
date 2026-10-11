@@ -907,5 +907,41 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.16</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>One click to a channel's versions:</b> while a channel with versions plays, the "FHD · 4" pill next to LIVE opens its versions.</li>
+    <li><b>The player shows the clean name:</b> the same name as the list ("RTP 1" rather than "RTP 1 FHD PT"), in the player, TV Mode and picture in picture.</li>
+    <li><b>Catch-up marks</b> in TV Mode's channel list and the player's channel panel.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sun, 11 Oct 2026 23:16:21 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.16/Observio-1.0.16-arm64.dmg" sparkle:version="1170" sparkle:shortVersionString="1.0.16" length="72060099" type="application/octet-stream" sparkle:edSignature="7qp9DCdK+yzVDvSTU9w3m6mis1UfIHoGY7nJ9MiwvBLYJH8/Wkm5bFP02bJBBvTiWgecH54l3Fl3behsGIwxBA==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.16</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>One click to a channel's versions:</b> while a channel with versions plays, the "FHD · 4" pill next to LIVE opens its versions.</li>
+    <li><b>The player shows the clean name:</b> the same name as the list ("RTP 1" rather than "RTP 1 FHD PT"), in the player, TV Mode and picture in picture.</li>
+    <li><b>Catch-up marks</b> in TV Mode's channel list and the player's channel panel.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sun, 11 Oct 2026 23:16:21 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.16/Observio-1.0.16-x86_64.dmg" sparkle:version="1170" sparkle:shortVersionString="1.0.16" length="74013289" type="application/octet-stream" sparkle:edSignature="fHUxvdjZ2pFtg3cSxjaMVGAUMlaNoJCrfwXOfOkJxiUv+1JYdhYZLts5Visoba2IDwRsfznW0KFi1EefB+uWBg==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
