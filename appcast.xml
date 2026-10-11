@@ -871,5 +871,41 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.15</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Cleaner channel names:</b> a channel with several versions shows its plain name ("SportTV 1 PT"), without FHD, HD, SD, HEVC or Backup.</li>
+    <li><b>Country codes where they help:</b> inside a group like Portugal, the code every channel shares is left out ("SportTV 1"); All Channels, Favorites and search keep it. Settings › Content › Hide country tags in groups.</li>
+    <li><b>Clean channel names is on by default:</b> it takes out tags like "|FHD|" or "[4K]" and now keeps country codes.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sun, 11 Oct 2026 22:21:22 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.15/Observio-1.0.15-arm64.dmg" sparkle:version="1160" sparkle:shortVersionString="1.0.15" length="72041264" type="application/octet-stream" sparkle:edSignature="i9OmOMsjzOWKJnNR/TmiztnT7euRw36fr1gpuWR4H5g9WUJ0nb/mOf7cu5mViGlPga0RTqCBh5OPWpvfD70NAQ==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.15</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Cleaner channel names:</b> a channel with several versions shows its plain name ("SportTV 1 PT"), without FHD, HD, SD, HEVC or Backup.</li>
+    <li><b>Country codes where they help:</b> inside a group like Portugal, the code every channel shares is left out ("SportTV 1"); All Channels, Favorites and search keep it. Settings › Content › Hide country tags in groups.</li>
+    <li><b>Clean channel names is on by default:</b> it takes out tags like "|FHD|" or "[4K]" and now keeps country codes.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sun, 11 Oct 2026 22:21:22 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.15/Observio-1.0.15-x86_64.dmg" sparkle:version="1160" sparkle:shortVersionString="1.0.15" length="73950262" type="application/octet-stream" sparkle:edSignature="5M7lOtIunaWIbJmTn6A57NwpldgIA9Q4CMi+Z58miN9C61R0rsd+8/pFGdIHjSNTgH8XDbJ19Bz9kYbFwoUfAw==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
