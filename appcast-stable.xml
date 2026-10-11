@@ -827,5 +827,49 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.14</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>One row per channel:</b> when your provider lists a channel in several qualities (FHD, HD, SD, backups…), the channel lists, the guide and search show it once, in FHD. A small stacked mark shows how many versions it has. Right-click a channel (or use the player's channel panel) › Version to pick another, from the best down: FHD, FHD · HEVC, backups, HD, SD. Observio remembers your pick. Settings › Content turns it off, puts HD, 4K or SD first, or leaves backup streams out.</li>
+    <li><b>Automatic fallback:</b> if the version you're watching stops working, Observio moves to the next-best version of the same channel on its own and tells you which.</li>
+    <li><b>Channel previews</b> (off by default): the last picture of a channel on its card.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Logos load more reliably:</b> a logo that failed is tried again on its own, and channels without a logo in the playlist use the guide's.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sun, 11 Oct 2026 21:37:32 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.14/Observio-1.0.14-arm64.dmg" sparkle:version="1150" sparkle:shortVersionString="1.0.14" length="72005658" type="application/octet-stream" sparkle:edSignature="ab2kTJFj9qaQBGGmDVtGtEWRkP4dR3Kl6mEF18H6C+LbmZ7gL6ZPb96pxy0sJKb1EOx05epTRv9Kdn9CbczHDg==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.14</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>One row per channel:</b> when your provider lists a channel in several qualities (FHD, HD, SD, backups…), the channel lists, the guide and search show it once, in FHD. A small stacked mark shows how many versions it has. Right-click a channel (or use the player's channel panel) › Version to pick another, from the best down: FHD, FHD · HEVC, backups, HD, SD. Observio remembers your pick. Settings › Content turns it off, puts HD, 4K or SD first, or leaves backup streams out.</li>
+    <li><b>Automatic fallback:</b> if the version you're watching stops working, Observio moves to the next-best version of the same channel on its own and tells you which.</li>
+    <li><b>Channel previews</b> (off by default): the last picture of a channel on its card.</li>
+  </ul>
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Logos load more reliably:</b> a logo that failed is tried again on its own, and channels without a logo in the playlist use the guide's.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sun, 11 Oct 2026 21:37:32 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.14/Observio-1.0.14-x86_64.dmg" sparkle:version="1150" sparkle:shortVersionString="1.0.14" length="73942180" type="application/octet-stream" sparkle:edSignature="n+mWi67Z8wR3G6jL7+py1NPnnXRbF/m9n8kn9qsXDxOK/iK7+Jp3h9ysL/hBPsbGjtHydnvq2TzKEnWj5joJDQ==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
