@@ -793,5 +793,39 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.13</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A fix for Macs on macOS 13 Ventura.</p>
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Observio opens again on macOS 13:</b> on Ventura, Observio could close right after launch once you had scheduled or made a recording. It now opens normally, and your recordings are kept.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sun, 11 Oct 2026 16:37:15 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.13/Observio-1.0.13-arm64.dmg" sparkle:version="1140" sparkle:shortVersionString="1.0.13" length="71908104" type="application/octet-stream" sparkle:edSignature="QasEq9cDgW6/GyBryJO1QHcMKdYYMcGA2v3+BZQjPIf8cKqTw6GaD0ZA//8s8Gd7vTFOKmX2c9Pf657WEYb9Bw==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.13</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <p>A fix for Macs on macOS 13 Ventura.</p>
+  <h3 style="margin:14px 0 4px;">Fixes</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Observio opens again on macOS 13:</b> on Ventura, Observio could close right after launch once you had scheduled or made a recording. It now opens normally, and your recordings are kept.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sun, 11 Oct 2026 16:37:15 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.13/Observio-1.0.13-x86_64.dmg" sparkle:version="1140" sparkle:shortVersionString="1.0.13" length="73782780" type="application/octet-stream" sparkle:edSignature="jwjnXm6wSd+Jzb/YYYHnJBjwlkHrsNfVOENhCm6huLLKIT6xRnvnefgw5X0E6pnqgvBcSbHpheubnAACIIxKCA==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
