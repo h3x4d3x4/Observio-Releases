@@ -1087,5 +1087,45 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.21</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">Improved</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Settings, the same on every device:</b> settings have the same names and places as on iPhone, iPad and Android, and search finds every one of them.</li>
+    <li><b>New Library &amp; Channels tab:</b> Channel Versions, channel names and previews, groups, custom lists and hidden channels are now together in one tab.</li>
+    <li><b>Playback Defaults:</b> Subtitle Style and the Sleep Timer can now be set here, the Catch-Up Window goes up to 30 days and Playback Rate has 1.75×.</li>
+    <li><b>Accounts</b> (was Integrations): Trakt, TMDB and OpenSubtitles. Download All Artwork moved here and says how many films and series it will fetch.</li>
+    <li><b>TV Mode settings</b> use the same names and ranges.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Mon, 12 Oct 2026 21:07:30 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.21/Observio-1.0.21-arm64.dmg" sparkle:version="1220" sparkle:shortVersionString="1.0.21" length="72103729" type="application/octet-stream" sparkle:edSignature="tW17LLsM+EGLMhX9+vc0FSBpjRhO3LJ7UANk1tbNFm5hKCWwWFUW3psbIu/9DvmmJqTGPGFhl4sV+YyILsG1Cw==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.21</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">Improved</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Settings, the same on every device:</b> settings have the same names and places as on iPhone, iPad and Android, and search finds every one of them.</li>
+    <li><b>New Library &amp; Channels tab:</b> Channel Versions, channel names and previews, groups, custom lists and hidden channels are now together in one tab.</li>
+    <li><b>Playback Defaults:</b> Subtitle Style and the Sleep Timer can now be set here, the Catch-Up Window goes up to 30 days and Playback Rate has 1.75×.</li>
+    <li><b>Accounts</b> (was Integrations): Trakt, TMDB and OpenSubtitles. Download All Artwork moved here and says how many films and series it will fetch.</li>
+    <li><b>TV Mode settings</b> use the same names and ranges.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Mon, 12 Oct 2026 21:07:30 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.21/Observio-1.0.21-x86_64.dmg" sparkle:version="1220" sparkle:shortVersionString="1.0.21" length="74007053" type="application/octet-stream" sparkle:edSignature="+woo3K0kf+DtO50r71lh187E97E261Od8hVz/tGKACt+53DabD9b//pzp34jAw41PnwWweVHBdgPJ7lt9y+qAg==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
