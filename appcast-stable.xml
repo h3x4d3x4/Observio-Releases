@@ -1159,5 +1159,47 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.23</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Reminders:</b> Settings › TV Guide › Show Reminders… lists every programme you asked to be reminded of, by day. Play or remove them from there.</li>
+    <li><b>Activity:</b> Settings › General › Show Activity… opens your full viewing activity, as on iPhone.</li>
+  </ul>
+  <h3 style="margin:8px 0 4px;">Fixed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Window resizing:</b> dragging a window's edge or corner, the bottom-right one in particular, resizes it without also moving the window or jumping in size.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Mon, 12 Oct 2026 23:12:27 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.23/Observio-1.0.23-arm64.dmg" sparkle:version="1240" sparkle:shortVersionString="1.0.23" length="72136055" type="application/octet-stream" sparkle:edSignature="FoxAyIH2jz4NU5B7zKcvmspp/LUPfxz36HojcFY8KMJC3C2DCbRHZ5gkNzI+jW3errvOx+ntPf8+FypmDrg0AA==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.23</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Reminders:</b> Settings › TV Guide › Show Reminders… lists every programme you asked to be reminded of, by day. Play or remove them from there.</li>
+    <li><b>Activity:</b> Settings › General › Show Activity… opens your full viewing activity, as on iPhone.</li>
+  </ul>
+  <h3 style="margin:8px 0 4px;">Fixed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Window resizing:</b> dragging a window's edge or corner, the bottom-right one in particular, resizes it without also moving the window or jumping in size.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Mon, 12 Oct 2026 23:12:27 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.23/Observio-1.0.23-x86_64.dmg" sparkle:version="1240" sparkle:shortVersionString="1.0.23" length="74092986" type="application/octet-stream" sparkle:edSignature="bPrh8Et9O0OV7R+5l4+2JjpkvQ3zh9ZDRbqjWAEPZi6kxFJ8LCGphzrz2aYK9lmwtm7idIFX1AdxJoGtir14Ag==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
