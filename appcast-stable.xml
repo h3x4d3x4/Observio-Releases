@@ -975,5 +975,49 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.18</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">Improved</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Movies &amp; Series stay light:</b> opening Movies or Series no longer starts fetching posters and details for your whole catalogue in the background. Posters load for what's on screen; Settings › Data Usage › Download All Artwork fetches everything when you choose to.</li>
+    <li><b>Subtitle files from Emby and Jellyfin:</b> subtitles kept as separate files next to a film on your server now appear in the subtitle list.</li>
+  </ul>
+  <h3 style="margin:10px 0 4px;">Fixed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Poster links from your provider that fail to load are looked up again from the provider or TMDB.</li>
+    <li>Audio delay set for one film no longer carries over to the next.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Mon, 12 Oct 2026 10:03:17 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.18/Observio-1.0.18-arm64.dmg" sparkle:version="1190" sparkle:shortVersionString="1.0.18" length="72080881" type="application/octet-stream" sparkle:edSignature="jUhUeUe137+0Owb/zFRjNkNqFi3Kgx0aEUlLxEO4YwGpTeunz6dgSHGYXtqArMh1nS290c8U73hv4gf8mU4EDg==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.18</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">Improved</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Movies &amp; Series stay light:</b> opening Movies or Series no longer starts fetching posters and details for your whole catalogue in the background. Posters load for what's on screen; Settings › Data Usage › Download All Artwork fetches everything when you choose to.</li>
+    <li><b>Subtitle files from Emby and Jellyfin:</b> subtitles kept as separate files next to a film on your server now appear in the subtitle list.</li>
+  </ul>
+  <h3 style="margin:10px 0 4px;">Fixed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Poster links from your provider that fail to load are looked up again from the provider or TMDB.</li>
+    <li>Audio delay set for one film no longer carries over to the next.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Mon, 12 Oct 2026 10:03:17 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.18/Observio-1.0.18-x86_64.dmg" sparkle:version="1190" sparkle:shortVersionString="1.0.18" length="73993438" type="application/octet-stream" sparkle:edSignature="6oSmxk0ao75C5jAD4y6mi4GcEAnkqarUDUxqjsCepXjULzPApMEqjuUHSmvOfC3FqV4Eq2WOqU5m1Y+OS2T/Cw==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
