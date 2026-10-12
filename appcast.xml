@@ -1053,5 +1053,39 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.20</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">Improved</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Upscaled channels:</b> channels marked “Upscale” now group with their other versions.</li>
+    <li><b>HEVC versions:</b> an HEVC version comes right after FHD and before HD, and HEVC is a new Preferred Version choice in Settings.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Mon, 12 Oct 2026 14:59:36 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.20/Observio-1.0.20-arm64.dmg" sparkle:version="1210" sparkle:shortVersionString="1.0.20" length="72110618" type="application/octet-stream" sparkle:edSignature="x+FPQtBwUeQSr5OBzgHqT+D3brbvwli9nIariocUefvkOU0ChUab8Qagz/BP0Dr9wCU0OUvt3iWFomxBvjnICg==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.20</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">Improved</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Upscaled channels:</b> channels marked “Upscale” now group with their other versions.</li>
+    <li><b>HEVC versions:</b> an HEVC version comes right after FHD and before HD, and HEVC is a new Preferred Version choice in Settings.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Mon, 12 Oct 2026 14:59:36 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.20/Observio-1.0.20-x86_64.dmg" sparkle:version="1210" sparkle:shortVersionString="1.0.20" length="73996613" type="application/octet-stream" sparkle:edSignature="uhIjW72OBjUTwf4nKlcCBHNtEZ39eayBsu14BM5lDCQttqFfyfkL3ZMvn3ho8UvyC4b/UMpvuWJwyGelxRQ/Aw==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
