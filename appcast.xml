@@ -1243,5 +1243,47 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.25</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>TV Mode holds:</b> while you watch, holding a key does a second thing: hold Esc for the TV Guide, hold ← for the channel's other versions, hold → for the last channel, hold ↑ or ↓ for the quick channel list.</li>
+    <li><b>Quick channel list:</b> ← and → switch groups, the line under the list shows what's on next on the highlighted channel, and rows show the minutes left.</li>
+  </ul>
+  <h3 style="margin:8px 0 4px;">Changed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Holding Esc in TV Mode's player now opens the TV Guide instead of stopping playback (Stop is in Quick Controls). Holding ← no longer opens the channel list beside the picture; it can still be set in the Custom remote layout.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Tue, 13 Oct 2026 07:23:06 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.25/Observio-1.0.25-arm64.dmg" sparkle:version="1260" sparkle:shortVersionString="1.0.25" length="72221020" type="application/octet-stream" sparkle:edSignature="adpyeTOQLb+sDVKN05sX9kdl79mBCRHYRDdtfYvSRehPLm9fdWNaLeKYRVrMQQHHzfr70r4DbD0eJCrEJV3eAw==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.25</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>TV Mode holds:</b> while you watch, holding a key does a second thing: hold Esc for the TV Guide, hold ← for the channel's other versions, hold → for the last channel, hold ↑ or ↓ for the quick channel list.</li>
+    <li><b>Quick channel list:</b> ← and → switch groups, the line under the list shows what's on next on the highlighted channel, and rows show the minutes left.</li>
+  </ul>
+  <h3 style="margin:8px 0 4px;">Changed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>Holding Esc in TV Mode's player now opens the TV Guide instead of stopping playback (Stop is in Quick Controls). Holding ← no longer opens the channel list beside the picture; it can still be set in the Custom remote layout.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Tue, 13 Oct 2026 07:23:06 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.25/Observio-1.0.25-x86_64.dmg" sparkle:version="1260" sparkle:shortVersionString="1.0.25" length="74161712" type="application/octet-stream" sparkle:edSignature="OQIYgX6z0ISdFqOO/0mDSRnwsfWimek+zZi4gNwRW8X785Vi3fJwptgNI6zfyEtVQ65w/szrn6rjvmlI2ij4DA==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
