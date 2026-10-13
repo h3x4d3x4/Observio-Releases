@@ -1201,5 +1201,47 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.24</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>TV Mode quick channel list:</b> hold ↑ or ↓ while you watch for a compact list of the channels: number, what's on and minutes left. Return watches the highlighted channel.</li>
+    <li><b>TV Mode → key:</b> → shows the programme description; hold → for the channel's other versions.</li>
+  </ul>
+  <h3 style="margin:8px 0 4px;">Changed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>In TV Mode's Standard and Custom remote layouts, holding ↑ and ↓ no longer opens History and Search, and → no longer goes to the last channel. History is in the player's chip row, Search is ⌘F and the last channel is ⌫.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Tue, 13 Oct 2026 00:00:08 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.24/Observio-1.0.24-arm64.dmg" sparkle:version="1250" sparkle:shortVersionString="1.0.24" length="72222517" type="application/octet-stream" sparkle:edSignature="GgmZHi51hFjxF0yAlbe2C4F9OEFlZc2eVDmdSuAc099JF4uuqKBfnVBU0i5ZMNMAweAdOA6VNLbR3lQ56+CXCw==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.24</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>TV Mode quick channel list:</b> hold ↑ or ↓ while you watch for a compact list of the channels: number, what's on and minutes left. Return watches the highlighted channel.</li>
+    <li><b>TV Mode → key:</b> → shows the programme description; hold → for the channel's other versions.</li>
+  </ul>
+  <h3 style="margin:8px 0 4px;">Changed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li>In TV Mode's Standard and Custom remote layouts, holding ↑ and ↓ no longer opens History and Search, and → no longer goes to the last channel. History is in the player's chip row, Search is ⌘F and the last channel is ⌫.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Tue, 13 Oct 2026 00:00:08 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.24/Observio-1.0.24-x86_64.dmg" sparkle:version="1250" sparkle:shortVersionString="1.0.24" length="74121351" type="application/octet-stream" sparkle:edSignature="oUNT2ry4dXt5T/T02mJYVsrJLq/MmOEqzBZAT0Lw5NwncXmCj86iZ7R3oIH6xkri/281BWSIe7O1y1xQnH6kCQ==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
