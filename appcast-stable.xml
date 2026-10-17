@@ -1335,5 +1335,69 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.27</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Level Volume</b> (Settings › Playback, off by default): evens out quiet and loud channels. It applies from the next channel; surround sound sent to a receiver is left as it is.</li>
+    <li><b>Time Format:</b> times are 24-hour by default. Choose AM/PM in Settings › General.</li>
+    <li><b>TV Mode, live progress bar:</b> with the controls up, ↑ selects the bar. ← → rewind and forward in the Pause Live TV buffer, Return pauses and plays, ↓ goes back to the buttons.</li>
+  </ul>
+  <h3 style="margin:8px 0 4px;">Changed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>TV Mode, sleep timer:</b> 10 minutes to 4 hours, plus End of programme. When it ends, the stream stops so the Mac can sleep, and nothing starts again until you press a key.</li>
+    <li><b>TV Mode, channel panel:</b> the schedule is always beside the channel list, the panel is wider, channel numbers are easier to read and channel logos keep their shape.</li>
+    <li><b>TV Mode, guide:</b> opens at the current half hour; cells show fewer cut-off titles; times show on the focused programme.</li>
+    <li><b>TV Mode, settings:</b> each setting&#x27;s explanation sits in one footer under the list, so more settings fit on screen.</li>
+    <li><b>TV Mode, player controls:</b> recent channels are named, and Record is a filled dot.</li>
+    <li><b>Channel versions:</b> local re-streams (“[Local]“, “(L)“) and “Script“ feeds now combine with the same channel, and the country tag is hidden in its group even when a bracket follows it.</li>
+  </ul>
+  <h3 style="margin:8px 0 4px;">Fixed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>TV Mode, fast channel changes:</b> pressing Channel Up/Down quickly tunes once, where you stop, instead of opening a stream per press (one-connection subscriptions could block the channel).</li>
+    <li><b>Channel changes on one-connection subscriptions</b> retry more gently while the provider lets go of the previous stream.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sat, 17 Oct 2026 02:42:52 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.27/Observio-1.0.27-arm64.dmg" sparkle:version="1280" sparkle:shortVersionString="1.0.27" length="72322671" type="application/octet-stream" sparkle:edSignature="dEw2TiclS9A/mPUoXQk8OYCNPyKmznteLeplKceWmiRoxdF9FRCGdN+tGzlnhZdRCjrjchp89Ik7f9FzN2XYDA==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.27</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">New</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Level Volume</b> (Settings › Playback, off by default): evens out quiet and loud channels. It applies from the next channel; surround sound sent to a receiver is left as it is.</li>
+    <li><b>Time Format:</b> times are 24-hour by default. Choose AM/PM in Settings › General.</li>
+    <li><b>TV Mode, live progress bar:</b> with the controls up, ↑ selects the bar. ← → rewind and forward in the Pause Live TV buffer, Return pauses and plays, ↓ goes back to the buttons.</li>
+  </ul>
+  <h3 style="margin:8px 0 4px;">Changed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>TV Mode, sleep timer:</b> 10 minutes to 4 hours, plus End of programme. When it ends, the stream stops so the Mac can sleep, and nothing starts again until you press a key.</li>
+    <li><b>TV Mode, channel panel:</b> the schedule is always beside the channel list, the panel is wider, channel numbers are easier to read and channel logos keep their shape.</li>
+    <li><b>TV Mode, guide:</b> opens at the current half hour; cells show fewer cut-off titles; times show on the focused programme.</li>
+    <li><b>TV Mode, settings:</b> each setting&#x27;s explanation sits in one footer under the list, so more settings fit on screen.</li>
+    <li><b>TV Mode, player controls:</b> recent channels are named, and Record is a filled dot.</li>
+    <li><b>Channel versions:</b> local re-streams (“[Local]“, “(L)“) and “Script“ feeds now combine with the same channel, and the country tag is hidden in its group even when a bracket follows it.</li>
+  </ul>
+  <h3 style="margin:8px 0 4px;">Fixed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>TV Mode, fast channel changes:</b> pressing Channel Up/Down quickly tunes once, where you stop, instead of opening a stream per press (one-connection subscriptions could block the channel).</li>
+    <li><b>Channel changes on one-connection subscriptions</b> retry more gently while the provider lets go of the previous stream.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sat, 17 Oct 2026 02:42:52 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.27/Observio-1.0.27-x86_64.dmg" sparkle:version="1280" sparkle:shortVersionString="1.0.27" length="74304909" type="application/octet-stream" sparkle:edSignature="lZc68wb/SDM4fjNJG5ectb8gwdRKPSPoAi4L6WWu+Qwn4+sy4qQ//jUaDoEL5phB1FzRtGcv6PhqxLbD+jWUDw==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
