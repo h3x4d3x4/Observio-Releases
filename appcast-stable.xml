@@ -1399,5 +1399,45 @@
                 <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
             </enclosure>
         </item>
+        <item>
+            <title>Version 1.0.28</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">Changed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Channel versions:</b> more versions of one channel combine into one row: names with "VIP" or a brand in front ("TV8 VIP", "Sky TV 8 HD [Local]" with "TV 8"), when the provider gives them the same guide.</li>
+  </ul>
+  <h3 style="margin:8px 0 4px;">Fixed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Native engine:</b> a repeated or late picture no longer stalls the video, and the picture comes back at once after the stream is rebuilt.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sat, 17 Oct 2026 18:21:15 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.28/Observio-1.0.28-arm64.dmg" sparkle:version="1290" sparkle:shortVersionString="1.0.28" length="72334586" type="application/octet-stream" sparkle:edSignature="jLk7ZRMXfiLtUkzYCAJxR747knvl11dn8+UKY7ZhoyeNvoFF2IN2l/0sBETtzlBSwrsSUaYWkrPkpf3ajQtbAA==">
+                <sparkle:hardwareRequirement>arch=arm64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
+        <item>
+            <title>Version 1.0.28</title>
+            <description><![CDATA[
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif; font-size:13px; line-height:1.5;">
+  <h3 style="margin:4px 0 4px;">Changed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Channel versions:</b> more versions of one channel combine into one row: names with "VIP" or a brand in front ("TV8 VIP", "Sky TV 8 HD [Local]" with "TV 8"), when the provider gives them the same guide.</li>
+  </ul>
+  <h3 style="margin:8px 0 4px;">Fixed</h3>
+  <ul style="margin:0; padding-left:20px;">
+    <li><b>Native engine:</b> a repeated or late picture no longer stalls the video, and the picture comes back at once after the stream is rebuilt.</li>
+  </ul>
+</div>
+            ]]></description>
+            <pubDate>Sat, 17 Oct 2026 18:21:15 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/h3x4d3x4/Observio-Releases/releases/download/v1.0.28/Observio-1.0.28-x86_64.dmg" sparkle:version="1290" sparkle:shortVersionString="1.0.28" length="74284234" type="application/octet-stream" sparkle:edSignature="szO7TVkY377DPKglIlxnho2qfnU05zU4WWQGlilYzUtR2XEsBSp+CTBLvy/lUn8CKh4ZnCzcnlmtljyGFbXiAg==">
+                <sparkle:hardwareRequirement>arch=x86_64</sparkle:hardwareRequirement>
+            </enclosure>
+        </item>
     </channel>
 </rss>
