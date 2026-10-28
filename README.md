@@ -6,6 +6,13 @@ This repository hosts the macOS release downloads and the automatic-update feeds
 
 Website: [observio.hexadexa.io](https://observio.hexadexa.io)
 
+<p align="center">
+<img src="screenshots/mac-live.webp" width="49%" alt="Live TV channel list with what's on now" />
+<img src="screenshots/mac-movie.webp" width="49%" alt="A movie's details page" />
+</p>
+
+<sub>Screenshots show the built-in demo with Blender Foundation open movies, CC BY.</sub>
+
 ## Download
 
 Get the latest version from the [Releases page](https://github.com/h3x4d3x4/Observio-Releases/releases/latest). Each release has two disk images:
